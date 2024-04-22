@@ -136,7 +136,7 @@ Veri objeleri ikiye ayrılır
 - is: İki nesnenin aynı nesne olup olmadığını kontrol eder.
 - is not: İki nesnenin aynı nesne olmadığını kontrol eder.
 
-#### print() Fonksiyonu:
+#### print() Fonksiyonu:
 ```
 x = 5
 y = 10
@@ -147,8 +147,506 @@ print("x değeri:", x, "ve y değeri:", y)  # "x değeri: 5 ve y değeri: 10" ç
 isim = input("Adınızı girin: ")
 print("Merhaba,", isim)  # Kullanıcının girdiği ismi ekrana yazdırır.
 ```
+#### Python String İfadeleri
 
+Python'da string (dize) veri tipi metin verilerini temsil etmek için kullanılır. Bir string, karakterlerin birleşimidir ve tek tırnak (`'`) veya çift tırnak (`"`) içinde tanımlanır.
 
+##### String Tanımlama
+
+```python
+s1 = 'Hello, world!'     # Tek tırnak içinde string
+s2 = "Python Programming"   # Çift tırnak içinde string
+s3 = """Bu çoklu
+satırlı bir stringdir."""   # Üç çift tırnak içinde çok satırlı string
+```
+
+#### String Birleştirme (Concatenation)
+```
+s1 = "Hello"
+s2 = "world"
+s3 = s1 + " " + s2   # "Hello world" stringini oluşturur
+```
+
+#### String Dizinleme (Indexing) ve Dilimleme (Slicing)
+```
+s = "Python"
+print(s[0])    # 'P' - İlk karakter
+print(s[-1])   # 'n' - Son karakter
+print(s[2:4])  # 'th' - 2. indeksten 4. indekse (dahil değil) kadar dilimleme
+```
+
+#### String Uzunluğu
+```
+s = "Python Programming"
+print(len(s))  # 18 - stringin karakter sayısı
+```
+
+#### String Metodları
+```
+s = "hello, world!"
+print(s.upper())   # Tüm karakterleri büyük harfe dönüştürür
+print(s.lower())   # Tüm karakterleri küçük harfe dönüştürür
+print(s.capitalize())  # Stringin ilk karakterini büyük harfe dönüştürür
+print(s.split(","))   # Belirtilen bir ayraçla stringi böler
+```
+
+#### String Formatlama
+```
+name = "Alice"
+age = 30
+print("My name is {} and I am {} years old.".format(name, age))
+# "My name is Alice and I am 30 years old." çıktısını verir
+```
+veya 
+```
+name = "Alice"
+age = 30
+print(f"My name is {name} and I am {age} years old.")
+# "My name is Alice and I am 30 years old." çıktısını verir
+```
+
+#### comment
+```
+# Bu bir yorumdur
+print("Hello, world!")  # Bu da bir yorumdur
+
+# print("Bu kod çalışmayacak")
+```
+
+### short-circuit
+
+Python'da kısa devre (short-circuit) değerlendirme, mantıksal operatörlerin (and, or) kullanımında gerçekleşen bir özelliktir. Kısa devre, bir ifadeyi değerlendirirken, sonucun zaten bilindiği durumlarda diğer ifadelerin değerlendirilmesini atlamaktır.
+
+#### and Operatörü Kısa Devre
+```
+# Kısa devre olmayan durum
+x = 5
+y = 0
+if x > 0 and x / y > 2:
+    print("Bu satır çalışmayacak")
+else:
+    print("Kısa devre meydana geldi")
+
+# Kısa devreli durum
+x = 5
+y = 0
+if y != 0 and x / y > 2:
+    print("Bu satır çalışmayacak")
+else:
+    print("Kısa devre meydana geldi")
+```
+
+#### or Operatörü Kısa Devre
+```
+# Kısa devre olmayan durum
+x = 0
+y = 5
+if x == 0 or y / x > 2:
+    print("Bu satır çalışmayacak")
+else:
+    print("Kısa devre meydana geldi")
+
+# Kısa devreli durum
+x = 0
+y = 5
+if x != 0 or y / x > 2:
+    print("Kısa devre meydana geldi")
+else:
+    print("Bu satır çalışmayacak")
+```
+
+Yukarıdaki örneklerde, and operatöründe eğer ilk ifade False ise ikinci ifadeyi değerlendirmeye gerek kalmaz. Benzer şekilde, or operatöründe eğer ilk ifade True ise ikinci ifadeyi değerlendirmeye gerek kalmaz. Bu durum kısa devre (short-circuit) olarak adlandırılır. Bu özellik, kodun daha verimli ve hızlı çalışmasını sağlar.
+
+#### if else elif
+```
+x = 10
+
+if x > 0:
+    print("x pozitif")
+elif x == 0:
+    print("x sıfır")
+else:
+    print("x negatif")
+```
+
+#### ternary conditions
+```
+# Ternary ifade kullanmadan
+x = 5
+if x > 0:
+    result = "positive"
+else:
+    result = "non-positive"
+print(result)  # "positive" çıktısını verecek
+
+# Ternary ifade kullanarak
+x = 5
+result = "positive" if x > 0 else "non-positive"
+print(result)  # "positive" çıktısını verecek
+```
+
+#### for Döngüsü:
+```
+# Liste üzerinde döngü
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+
+# Liste yerine bir string üzerinde döngü
+for letter in "Python":
+    print(letter)
+
+# Belirli bir aralıkta döngü
+for i in range(5):
+    print(i)
+
+# Belirli bir aralıkta belirli bir artış miktarı ile döngü
+for i in range(0, 10, 2):
+    print(i)
+```
+
+#### while Döngüsü:
+```
+# Belirli bir koşul sağlandığı sürece döngü
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+
+# Sonsuz döngü (Ctrl + C ile durdurulmalı)
+# while True:
+#     print("Sonsuz döngü")
+```
+
+#### break ifadesiyle döngüden çıkılır:
+```
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+    if fruit == "banana":
+        break
+```
+#### continue ifadesiyle döngünün bir sonraki iterasyonuna geçilir:
+```
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    if fruit == "banana":
+        continue
+    print(fruit)
+```
+
+#### Liste Oluşturma:
+```
+# Boş liste oluşturma
+my_list = []
+
+# Stringlerden oluşan bir liste oluşturma
+fruits = ["apple", "banana", "cherry"]
+
+# Sayılardan oluşan bir liste oluşturma
+numbers = [1, 2, 3, 4, 5]
+
+# Farklı veri tiplerinden oluşan bir liste oluşturma
+mixed_list = [1, "apple", True, 2.5]
+```
+#### Liste Elemanlarına Erişme:
+```
+fruits = ["apple", "banana", "cherry"]
+
+# Belirli bir indeksteki elemana erişme
+print(fruits[0])  # "apple"
+
+# Negatif indekslerle son elemana erişme
+print(fruits[-1])  # "cherry"
+
+# Bir aralıktaki elemanlara erişme (dilimleme)
+print(fruits[1:3])  # ["banana", "cherry"]
+
+# Listeyi tersine çevirme
+print(fruits[::-1])  # ["cherry", "banana", "apple"]
+```
+#### Liste Metodları:
+```
+fruits = ["apple", "banana", "cherry"]
+
+# Liste uzunluğunu alma
+print(len(fruits))  # 3
+
+# Listenin sonuna eleman ekleme
+fruits.append("orange")
+print(fruits)  # ["apple", "banana", "cherry", "orange"]
+
+# Belirli bir indekse eleman ekleme
+fruits.insert(1, "grape")
+print(fruits)  # ["apple", "grape", "banana", "cherry", "orange"]
+
+# Belirli bir indeksteki elemanı silme
+fruits.pop(1)
+print(fruits)  # ["apple", "banana", "cherry", "orange"]
+
+# Belirli bir değere sahip tüm elemanları silme
+fruits.remove("banana")
+print(fruits)  # ["apple", "cherry", "orange"]
+
+# Liste elemanlarını sıralama
+fruits.sort()
+print(fruits)  # ["apple", "cherry", "orange"]
+
+# Liste elemanlarını tersine sıralama
+fruits.reverse()
+print(fruits)  # ["orange", "cherry", "apple"]
+```
+
+#### tuple
+Python'da tuple, değiştirilemez (immutable) bir veri yapısıdır. Tuple, virgülle ayrılmış öğelerden oluşur ve genellikle parantez içinde tanımlanır. İşte tuple oluşturma ve kullanma örnekleri:
+
+#### Tuple Oluşturma:
+```
+# Boş tuple oluşturma
+my_tuple = ()
+
+# Tek bir eleman içeren tuple oluşturma
+my_singleton_tuple = (1,)  # Tek elemanlı bir tuple tanımlarken virgül kullanılmalıdır.
+
+# Stringlerden oluşan bir tuple oluşturma
+fruits = ("apple", "banana", "cherry")
+
+# Sayılardan oluşan bir tuple oluşturma
+numbers = (1, 2, 3, 4, 5)
+
+# Farklı veri tiplerinden oluşan bir tuple oluşturma
+mixed_tuple = (1, "apple", True, 2.5)
+```
+
+#### Tuple Elemanlarına Erişme:
+```
+fruits = ("apple", "banana", "cherry")
+
+# Belirli bir indeksteki elemana erişme
+print(fruits[0])  # "apple"
+
+# Negatif indekslerle son elemana erişme
+print(fruits[-1])  # "cherry"
+
+# Bir aralıktaki elemanlara erişme (dilimleme)
+print(fruits[1:3])  # ("banana", "cherry")
+
+# Tuple'ın uzunluğunu alma
+print(len(fruits))  # 3
+```
+
+#### Tuple Metodları:
+Tuple'lar değiştirilemez olduğundan, tuple veri yapısı üzerinde değişiklik yapmak mümkün değildir. Ancak, index() ve count() gibi bazı metodlar kullanılabilir:
+```
+fruits = ("apple", "banana", "cherry")
+
+# Belirli bir değerin indeksini alma
+print(fruits.index("banana"))  # 1
+
+# Belirli bir değerin tuple içinde kaç defa geçtiğini alma
+print(fruits.count("cherry"))  # 1
+```
+
+#### set
+Python'da bir set, benzersiz ve değiştirilebilir (mutable) bir koleksiyon veri tipidir. Bir set, süslü parantezler {} içinde virgülle ayrılmış öğelerden oluşur. Set'ler, bir liste veya tuple gibi sıralı değildir ve öğeler arasında sıralama garantisi vermez. Ayrıca, bir set içinde aynı öğeden yalnızca bir tane bulunabilir. İşte set oluşturma ve kullanma örnekleri:
+
+#### Set Oluşturma:
+```
+# Boş bir set oluşturma
+my_set = set()
+
+# Elemanlarıyla bir set oluşturma
+my_set = {1, 2, 3, 4, 5}
+
+# Bir liste veya tuple'dan bir set oluşturma
+my_set = set([1, 2, 3, 4, 5])
+```
+#### Set Elemanlarına Erişme:
+Set'lerde indeksleme veya dilimleme yapılamaz çünkü set'ler sıralı değildir. Ancak, bir elemanın bir set içinde bulunup bulunmadığını kontrol etmek için in operatörü kullanılabilir.
+
+```
+my_set = {1, 2, 3, 4, 5}
+
+# Bir elemanın set içinde bulunup bulunmadığını kontrol etme
+print(3 in my_set)  # True
+print(6 in my_set)  # False
+
+```
+
+#### Set Metodları:
+```
+my_set = {1, 2, 3}
+
+# Bir elemanı set'e ekleme
+my_set.add(4)
+print(my_set)  # {1, 2, 3, 4}
+
+# Bir elemanı set'ten silme
+my_set.remove(2)
+print(my_set)  # {1, 3, 4}
+
+# Set'i temizleme
+my_set.clear()
+print(my_set)  # set()
+```
+
+#### dictionary 
+Python'da bir sözlük (dictionary), anahtar-değer çiftlerini depolayan bir veri yapısıdır. Sözlükler, süslü parantezler {} içinde tanımlanır ve her bir öğe anahtar ve değer olarak adlandırılan bir çiftle temsil edilir. İşte sözlük oluşturma ve kullanma örnekleri:
+
+#### Sözlük Oluşturma:
+```
+# Boş bir sözlük oluşturma
+my_dict = {}
+
+# Anahtarlar ve değerlerle bir sözlük oluşturma
+my_dict = {"apple": 1, "banana": 2, "cherry": 3}
+
+# dict() fonksiyonu kullanarak bir sözlük oluşturma
+my_dict = dict(apple=1, banana=2, cherry=3)
+
+# Liste veya tuple kullanarak bir sözlük oluşturma
+my_dict = dict([("apple", 1), ("banana", 2), ("cherry", 3)])
+```
+
+#### Sözlük Elemanlarına Erişme:
+```
+my_dict = {"apple": 1, "banana": 2, "cherry": 3}
+
+# Bir anahtara karşılık gelen değeri alma
+print(my_dict["banana"])  # 2
+
+# Bir anahtara karşılık gelen değeri get() metoduyla alma
+print(my_dict.get("cherry"))  # 3
+
+# Bir anahtara karşılık gelen değeri varsayılan bir değerle alma
+print(my_dict.get("orange", "Varsayılan değer"))  # Varsayılan değer
+```
+
+#### Sözlük Metodları:
+```
+my_dict = {"apple": 1, "banana": 2, "cherry": 3}
+
+# Bir anahtarın varlığını kontrol etme
+print("banana" in my_dict)  # True
+
+# Bir anahtarın varlığını kontrol etme (get() metoduyla)
+print(my_dict.get("orange") is not None)  # False
+
+# Bir anahtara karşılık gelen değeri değiştirme
+my_dict["banana"] = 5
+print(my_dict)  # {'apple': 1, 'banana': 5, 'cherry': 3}
+
+# Yeni bir anahtar-değer çifti ekleme
+my_dict["orange"] = 4
+print(my_dict)  # {'apple': 1, 'banana': 5, 'cherry': 3, 'orange': 4}
+
+# Bir anahtarı ve karşılık gelen değeri silme
+del my_dict["cherry"]
+print(my_dict)  # {'apple': 1, 'banana': 5, 'orange': 4}
+
+# Tüm anahtar-değer çiftlerini alma
+print(my_dict.items())  # dict_items([('apple', 1), ('banana', 5), ('orange', 4)])
+```
+
+#### split ve join methodu 
+```
+# Bir stringi boşluklara göre bölmek
+sentence = "Python çok güçlü bir dil"
+words = sentence.split()
+print(words)  # ['Python', 'çok', 'güçlü', 'bir', 'dil']
+
+# Bir stringi farklı bir ayırıcıya göre bölmek
+numbers = "1,2,3,4,5"
+num_list = numbers.split(',')
+print(num_list)  # ['1', '2', '3', '4', '5']
+```
+```
+# Bir liste elemanlarını boşlukla birleştirmek
+words = ['Python', 'çok', 'güçlü', 'bir', 'dil']
+sentence = ' '.join(words)
+print(sentence)  # Python çok güçlü bir dil
+
+# Bir liste elemanlarını farklı bir ayırıcıyla birleştirmek
+num_list = ['1', '2', '3', '4', '5']
+numbers = ','.join(num_list)
+print(numbers)  # 1,2,3,4,5
+```
+
+#### list compheransion
+
+new_list = [expression for item in iterable if condition]
+```
+numbers = [1, 2, 3, 4, 5]
+even_numbers = [x for x in numbers if x % 2 == 0]
+print(even_numbers)  # [2, 4]
+```
+
+#### enumerate() Fonksiyonu:
+enumerate() fonksiyonu, bir iterable nesnenin indeksini ve değerini döndürür. Bu, bir döngü içinde hem indeks hem de değer ile birlikte çalışmanıza olanak sağlar.
+```
+fruits = ["apple", "banana", "cherry"]
+
+for index, fruit in enumerate(fruits):
+    print(index, fruit)
+
+# Çıktı:
+# 0 apple
+# 1 banana
+# 2 cherry
+```
+#### zip fonksiyonu 
+zip() fonksiyonu, farklı iterable nesneleri paralel olarak birleştirerek birleştirilmiş bir tuple listesi oluşturur.
+```
+numbers = [1, 2, 3]
+letters = ['a', 'b', 'c']
+
+zipped = zip(numbers, letters)
+print(list(zipped))  # [(1, 'a'), (2, 'b'), (3, 'c')]
+
+------------------------------------------------------------------
+
+numbers = [1, 2, 3]
+letters = ['a', 'b', 'c', 'd']
+
+zipped = zip(numbers, letters)
+print(list(zipped))  # [(1, 'a'), (2, 'b'), (3, 'c')]
+
+------------------------------------------------------------------
+numbers = [1, 2, 3]
+letters = ['a', 'b', 'c']
+symbols = ['!', '@', '#']
+
+zipped = zip(numbers, letters, symbols)
+print(list(zipped))  # [(1, 'a', '!'), (2, 'b', '@'), (3, 'c', '#')]
+
+```
+
+#### function 
+```
+def hello():
+    print("Merhaba, dünya!")
+
+hello()  # Fonksiyonu çağırma
+```
+
+#### Esnek Sayıda Argümanlar:
+```
+
+def add(*args):
+    total = 0
+    for num in args:
+        total += num
+    return total
+
+print(add(1, 2, 3))  # 6
+print(add(1, 2, 3, 4, 5))  # 15
+```
+
+#### Lambda Fonksiyonları:
+```
+double = lambda x: x * 2
+print(double(5))  # 10
+```
 
 ### Clean Code
 
