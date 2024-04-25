@@ -835,6 +835,7 @@ Harika hikayeler anlatmanın dört adımı
 
 
  -Soru-Cevap oturumunu ne zaman yapmalısınız?
+ 
 Çoğu sunum, Soru-Cevap ile sona erme eğilimi gösterir. Bazen bu oturumlar, sunum yapan kişi için sürprizler oluşturabilir. Hedef kitlenin bir üyesinden gelen bir soru sunumunuzun yönünü saptırabilir. İnsanların en son duydukları bilgileri hatırlama eğiliminde oldukları göz önüne alındığında, Soru-Cevap kısmını sona bırakmaktan kaçının. Hedef kitlenin sorulan soruları veya verilen cevapları hatırlamasını istemezsiniz. İdeal olarak, sunumunuzun ana mesajını hatırlamalarını istersiniz veya zihinlerinde bir eylem çağrısı veya benzeri bir ifade uyandırmak isteyebilirsiniz.
 
 Bunu birkaç yolla sağlayabilirsiniz. Örneğin, sunum boyunca Soru-Cevap molaları verebilirsiniz. Bu yöntem, siz ve hedef kitleniz için gerekli olan ve fazlasıyla ihtiyaç duyulan molayı sağlarken, şüpheleri netleştirmenize yardımcı olacaktır. Sonunda Soru-Cevap için biraz zaman ayırmak isteseniz bile bu sorun olmaz. Sunumu belirsiz veya yetersiz biçimde sona erdirmekten kaçınmak için Soru-Cevap bölümünden sonra kapanış yorumlarınızı sunmayı unutmamanız yeterlidir.
@@ -858,6 +859,15 @@ https://www.youtube.com/watch?v=y-xthksY0yY&t=3s
 - SVN: SVN (Subversion), bir diğer açık kaynaklı VCS aracıdır. Projelerin tarihçesini yönetir ve farklı sürümleri saklayarak geri dönüşümlü işlemler yapılmasına imkan tanır.
 
 - Mercurial: Mercurial, dağıtık bir VCS aracıdır. Projelerin kaynak kodlarını yönetmek ve farklı sürümlerini saklamak için kullanılır.
+
+#### Öğrenci Olmanın Nimetleri
+
+- Github Student Pack
+- Microsoft Azure -proje deploy ederken ve bulut çalışmalarımda kullandım 
+- Autodesk
+- JetBrains
+- Amazon Prime Student 
+- Apple Education Store
 
 ### IBM SkillsBuild
 
