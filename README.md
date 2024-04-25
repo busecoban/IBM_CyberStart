@@ -709,8 +709,141 @@ List<?> herTurluListe = new ArrayList<>();
 
 - Temiz kod hakkında daha fazla bilgi almak için Robert C. Martin'in "Clean Code" kitabını okumanızı öneririm. Ayrıca “teknik borç(technical debt)” ifadesini de araştırmanız güzel olabilir.
 
+### IBM SkillsBuild
+
+```
+Konular :
+- Sunumunuz için doğru hedefleri belirlemek neden önemlidir?
+
+- Hedef kitlenizi nasıl tanımlarsınız?
+
+- Sunumunuzun yapısını nasıl oluşturursunuz?
+
+- Sunum slaytlarınızı nasıl tasarlıyorsunuz?
+
+- Nasıl daha etkili sunum yaparsınız?
+
+- Sinirlerinizi nasıl yönetirsiniz?
+
+- Beklenmedik durumlarla nasıl başa çıkıyorsunuz?
+
+```
+
+#### Notlar:
+
+- Başarılı bir sunum iki etkene bağlıdır - hazırlık - sunumu yapış
+
+```
+  "Sunumunuzda neyi başarmak istediğinizi siz bilmiyorsanız hedef kitleniz hiç bilemez."
+
+– Amerikalı yazar, Harvey Diamond
+```
+- 1. Sunumunuzun sonucu hakkında net olun
+- 2. Sunumunuzun sonucunu belirlemek için işbirliği yapın
+- Bilgi edinme, harekete geçme ve hissetme
+
+  <img width="830" alt="Screenshot 2024-04-25 at 22 06 41" src="https://github.com/busecoban/IBM_CyberStart/assets/73944611/974b086a-e010-4913-8273-741130d63631">
+
+
+Slayt setinizi hedef kitlenize dağıtmalı mısınız? Slayt setleri okumak için değil, sunum yapmak içindir. Bunların paylaşılması, hedef kitlenize aşırı düzeyde bilgi yüklemenize yol açar; bu da sunumunuza olan ilgilerini kaybetmelerine neden olur ve sunum yapan kişi olarak size odaklanmalarını engelleyebilir. Sunumunuzu paylaşmaktan kaçının.
+
+Yapılandırılmış bir sunum, açılış, gelişme ve kapanışı içermelidir; ancak hikaye zorunlu değildir.
+
+
+ <img width="806" alt="Screenshot 2024-04-25 at 22 17 17" src="https://github.com/busecoban/IBM_CyberStart/assets/73944611/f4f03927-7e08-425f-b19a-c2d8733f9012">
+
+ 
+
+
+```
+Düşünce 1: 
+"Bir çok politikacı, hedef kitle için neyin en çok işe yarayacağına dair akıllıca bir fikir geliştirmiştir."
+
+– Amerikalı haber spikeri, Jessica Savitch
+```
+- Düşünce 1: Ne düşünüyorsunuz?
+
+```
+Düşünce 2: 
+Ekibinizin yeni bir teknoloji türüyle çalışma deneyimi hakkında bir sunum üzerinde çalıştığınızı varsayalım. Sunumu meslektaşlarınıza, ekibinize, müdürünüze veya üst düzey yöneticilerinize yapıyor olsaydınız sunum aynı mı olurdu? Düşüncenizi açıklayın.
+```
+- Düşünce 2: Ne düşünüyorsunuz?
+
+```
+Daha pozitif, samimi ve ilgi çekici görünmek için beden dilinizi nasıl ayarlayabilirsiniz?
+```
+- Ne düşünüyorsunuz?
+
+#### Etkili sunum teknikleri
+  
+Sunum sırasında kullanabileceğiniz, aşağıda belirtilenler dahil olmak üzere, birden fazla teknik vardır:
+
+- Anımsatmaya yönelik bir dil kullanma
+- Harika hikayeler anlatma
+- Fiziksel sahne donanımı veya ayırt edici görsel resimler kullanma
+- Hedef kitlenizi tartışmaya dahil etme
+- Kontrollü, ancak canlı bir şekilde konuşma ve hareket etme
+- İyi sunum yapanların tamamı, bu tekniklerin tümünü olmasa da çoğunu kullanma eğilimi gösterir.
+
+#### Teknik 1: Anımsatıcı bir dil kullanma
+Anımsatıcı dili aşağıdakileri yaparak kullanabilirsiniz:
+- Şaşırtıcı bilgiler paylaşma
+- Kışkırtıcı bir soru sorma
+- İnanılmaz bir istatistik paylaşma
+- Bir benzetme kullanma
+- İlginç veya komik bir hikaye anlatma
+
+Benzetme kullanma
+```
+Tüm dünya bir sahnedir."
+
+– İngiliz şair, oyun yazarı ve aktör William Shakespeare
+```
+
+#### Teknik 2: Harika hikayeler anlatma
+```
+"Tarih, hikayeler biçiminde öğretilseydi, asla unutulmazdı."
+
+– İngiliz yazar, Rudyard Kipling
+```
+
+<img width="803" alt="Screenshot 2024-04-25 at 22 26 14" src="https://github.com/busecoban/IBM_CyberStart/assets/73944611/d15f5b2f-82f9-4dd7-bb89-60c8f32a2a0b">
+
+Harika hikayeler anlatmanın dört adımı
+- canlı bir ortam
+- ana karakter için bir sorun
+- karakterimiz sorunla nasıl mücadele ediyor
+- en can alıcı nokta ve sonuç
+
+#### Teknik 3: Fiziksel sahne donanımı veya ayırt edici görsel resimler kullanma
+- Steve Jobs'un karton zarfı, sahne donanımına bir örnektir
+- Sahne donanımı seçiminize dikkat edin. "Fazla ilginç" olan bir nesne seçerseniz, hedef kitleniz sizi dinlemeyi bırakacaktır.
+  
+#### Teknik 4: Hedef kitlenizi tartışmaya dahil etme
+ hedef kitlenize sorular sorarak veya küçük tartışmalar başlatarak onların ilgisini çekebilirsiniz. Hedef kitle, genellikle soruların sunumun sonunda sorulmasını bekler, ancak sunumun ortasında veya sunum boyunca sorular sorarak onları şaşırtabilirsiniz.
+- Hedef kitlenizi izleyicilerden katılımcılara dönüştürebilirsiniz
+- Anlatmaktan tartışmaya geçebilirsiniz
+
+#### Teknik 5: Kontrollü, ancak canlı bir şekilde konuşma ve hareket etme
+```
+"İki tür konuşmacı vardır: gergin olanlar ve yalancılar."
+
+– Amerikalı yazar, Mark Twain
+```
+
+<img width="814" alt="Screenshot 2024-04-25 at 22 35 42" src="https://github.com/busecoban/IBM_CyberStart/assets/73944611/553487ab-6810-48a1-8966-471ced9794f1">
+
+
+ -Soru-Cevap oturumunu ne zaman yapmalısınız?
+Çoğu sunum, Soru-Cevap ile sona erme eğilimi gösterir. Bazen bu oturumlar, sunum yapan kişi için sürprizler oluşturabilir. Hedef kitlenin bir üyesinden gelen bir soru sunumunuzun yönünü saptırabilir. İnsanların en son duydukları bilgileri hatırlama eğiliminde oldukları göz önüne alındığında, Soru-Cevap kısmını sona bırakmaktan kaçının. Hedef kitlenin sorulan soruları veya verilen cevapları hatırlamasını istemezsiniz. İdeal olarak, sunumunuzun ana mesajını hatırlamalarını istersiniz veya zihinlerinde bir eylem çağrısı veya benzeri bir ifade uyandırmak isteyebilirsiniz.
+
+Bunu birkaç yolla sağlayabilirsiniz. Örneğin, sunum boyunca Soru-Cevap molaları verebilirsiniz. Bu yöntem, siz ve hedef kitleniz için gerekli olan ve fazlasıyla ihtiyaç duyulan molayı sağlarken, şüpheleri netleştirmenize yardımcı olacaktır. Sonunda Soru-Cevap için biraz zaman ayırmak isteseniz bile bu sorun olmaz. Sunumu belirsiz veya yetersiz biçimde sona erdirmekten kaçınmak için Soru-Cevap bölümünden sonra kapanış yorumlarınızı sunmayı unutmamanız yeterlidir.
+
+
+
 ### Yazılım Alanlarını Tanıyalım
 
+https://www.youtube.com/watch?v=y-xthksY0yY&t=3s
 
 
 
