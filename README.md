@@ -841,7 +841,7 @@ Bunu birkaç yolla sağlayabilirsiniz. Örneğin, sunum boyunca Soru-Cevap molal
 
 
 
-### Yazılım Alanlarını Tanıyalım
+### Yazılım Alanlarını Tanıyalım 1 : Siber Güvenlik 
 
 https://www.youtube.com/watch?v=y-xthksY0yY&t=3s
 
@@ -849,6 +849,27 @@ https://www.youtube.com/watch?v=y-xthksY0yY&t=3s
 
 
 # Hafta 2
+
+### Genel Kültür
+
+#### VCS : version control system
+- Git: Git, özellikle açık kaynaklı yazılım projelerinde sıklıkla kullanılan bir VCS aracıdır. Projelerin kaynak kodlarının takip edilmesine ve değişikliklerin yönetilmesine yardımcı olur.
+
+- SVN: SVN (Subversion), bir diğer açık kaynaklı VCS aracıdır. Projelerin tarihçesini yönetir ve farklı sürümleri saklayarak geri dönüşümlü işlemler yapılmasına imkan tanır.
+
+- Mercurial: Mercurial, dağıtık bir VCS aracıdır. Projelerin kaynak kodlarını yönetmek ve farklı sürümlerini saklamak için kullanılır.
+
+### IBM SkillsBuild
+
+### Python
+
+### Clean Code
+
+### Yazılım Alanları Tanıyalım 2: Web Geliştirme
+https://www.youtube.com/watch?v=ZCQlk5ZZ30E&t=1s
+
+
+
 
 # Hafta 3
 
