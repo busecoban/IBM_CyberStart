@@ -5,6 +5,86 @@
 
 <h3 align="center">Jonah Peretti</h3>
 
+******************************************
+
+  ## IBM ile Kodluyoruz: CyberStart 🐍 Neden Python Programlama Dili? - 30.04.2024
+<img width="537" alt="Screenshot 2024-04-30 at 16 13 04" src="https://github.com/busecoban/IBM_CyberStart/assets/73944611/adac1eda-9e01-4210-9473-1f3ba266c53e">
+
+https://medium.com/kodcular/python-neden-bu-kadar-pop%C3%BCler-d7f0f6819de5
+
+
+------ makale alıntısıdır ------
+
+
+Her dönem tercih edilen Python’un son dönemlerdeki kullanımı ise ciddi bir ivmelenme gösterdi. İşte bu hızlı artışın nedenleri:
+
+- 1. Aktif Kullanıcı Toplulukları
+
+- 2. Sponsor Desteği
+<img width="589" alt="Screenshot 2024-04-30 at 16 18 37" src="https://github.com/busecoban/IBM_CyberStart/assets/73944611/46b7255d-3392-4e73-8e0d-d1f8cd7a16c9">
+
+- 3. Büyük Veri’de Python
+
+- 4. Sahip Olduğu Geniş Kütüphane
+
+<img width="422" alt="Screenshot 2024-04-30 at 16 19 27" src="https://github.com/busecoban/IBM_CyberStart/assets/73944611/f230112c-6bb6-41ab-aec2-f8cc780638ca">
+
+- 5. Güvenilir ve Etkili
+
+- 6. Ulaşılabilir
+     
+------ son ------
+
+* Integrated and Interpreted language :derlenmiyor satır satır çalışıyor
+
+  ## Python vs Other Programming Languages
+
+  https://www.geeksforgeeks.org/python-vs-other-programming-languages/
+
+  ## Google Colab
+
+  https://colab.research.google.com/drive/1C3K8OIMHgdex8568035XgwY5bDDbk0nn?usp=sharing
+****************************************** 
+# Hafta 6
+
+# Hafta 5
+
+# Hafta 4
+
+# Hafta 3
+******************************************
+
+# Hafta 2
+
+### Genel Kültür
+
+#### VCS : version control system
+- Git: Git, özellikle açık kaynaklı yazılım projelerinde sıklıkla kullanılan bir VCS aracıdır. Projelerin kaynak kodlarının takip edilmesine ve değişikliklerin yönetilmesine yardımcı olur.
+
+- SVN: SVN (Subversion), bir diğer açık kaynaklı VCS aracıdır. Projelerin tarihçesini yönetir ve farklı sürümleri saklayarak geri dönüşümlü işlemler yapılmasına imkan tanır.
+
+- Mercurial: Mercurial, dağıtık bir VCS aracıdır. Projelerin kaynak kodlarını yönetmek ve farklı sürümlerini saklamak için kullanılır.
+
+#### Öğrenci Olmanın Nimetleri
+
+- Github Student Pack
+- Microsoft Azure -proje deploy ederken ve bulut çalışmalarımda kullandım 
+- Autodesk
+- JetBrains
+- Amazon Prime Student 
+- Apple Education Store
+
+### IBM SkillsBuild
+
+### Python
+
+### Clean Code
+
+### Yazılım Alanları Tanıyalım 2: Web Geliştirme
+https://www.youtube.com/watch?v=ZCQlk5ZZ30E&t=1s
+
+******************************************
+
 # Hafta 1
 
 ### Genel Kültür
@@ -849,44 +929,5 @@ https://www.youtube.com/watch?v=y-xthksY0yY&t=3s
 
 
 
-# Hafta 2
-
-### Genel Kültür
-
-#### VCS : version control system
-- Git: Git, özellikle açık kaynaklı yazılım projelerinde sıklıkla kullanılan bir VCS aracıdır. Projelerin kaynak kodlarının takip edilmesine ve değişikliklerin yönetilmesine yardımcı olur.
-
-- SVN: SVN (Subversion), bir diğer açık kaynaklı VCS aracıdır. Projelerin tarihçesini yönetir ve farklı sürümleri saklayarak geri dönüşümlü işlemler yapılmasına imkan tanır.
-
-- Mercurial: Mercurial, dağıtık bir VCS aracıdır. Projelerin kaynak kodlarını yönetmek ve farklı sürümlerini saklamak için kullanılır.
-
-#### Öğrenci Olmanın Nimetleri
-
-- Github Student Pack
-- Microsoft Azure -proje deploy ederken ve bulut çalışmalarımda kullandım 
-- Autodesk
-- JetBrains
-- Amazon Prime Student 
-- Apple Education Store
-
-### IBM SkillsBuild
-
-### Python
-
-### Clean Code
-
-### Yazılım Alanları Tanıyalım 2: Web Geliştirme
-https://www.youtube.com/watch?v=ZCQlk5ZZ30E&t=1s
-
-
-
-
-# Hafta 3
-
-# Hafta 4
-
-# Hafta 5
-
-# Hafta 6
 
 
