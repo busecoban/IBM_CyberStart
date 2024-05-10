@@ -1,16 +1,22 @@
 ![MasterHead](https://github.com/busecoban/IBM_CyberStart/assets/73944611/0f4de612-3ccc-4b13-b344-7dce9b455290)
+
 <h1 align="center">IBM ile Kodluyoruz: CyberStart - 🐍 </h1>
 <h3 align="center">“Yaratıcı bir fikrin iyi bir ağla buluşması, sıfırdan milyonlara gitmek için en iyi yoldur."</h3>
 
-
 <h3 align="center">Jonah Peretti</h3>
 
-******************************************
+
+
+
+
+
+
+
 # Hafta 6
 
-### Genel Kültür
+## Genel Kültür
 
-#### Açık Yazılım, Kapalı Yazılım ve Özgür Yazılım
+### Açık Yazılım, Kapalı Yazılım ve Özgür Yazılım
 
 #### Açık Yazılım (Open Source)
 
@@ -26,7 +32,7 @@ Açık Yazılım, kaynak kodunun herkese açık ve erişilebilir olduğu yazıl�
 
 Kapalı Yazılım, kaynak kodunun geliştirici veya şirket tarafından gizli tutulduğu yazılım türüdür. Kullanıcılar, yazılımı kullanabilirler, ancak kaynak kodunu göremezler veya değiştiremezler. Kapalı Yazılım, genellikle ticari şirketler tarafından geliştirilir ve sadece belirli bir lisans altında kullanıcılar tarafından satın alınır veya lisanslanır.
 
-#### Örnekler:
+##### Örnekler:
 - Microsoft Windows işletim sistemi
 - Adobe Photoshop
 - Microsoft Office paketi
@@ -40,17 +46,25 @@ Kapalı Yazılım, kaynak kodunun geliştirici veya şirket tarafından gizli tu
 - LibreOffice ofis paketi
 - GIMP grafik düzenleyici
 
-#### Notlar
+### Notlar
 
 Özgür Yazılım ve Açık Yazılım bazen karıştırılabilir, ancak aralarında bazı farklar vardır. Açık Yazılım, sadece kaynak kodunun açık olmasını gerektirirken, Özgür Yazılım, kullanıcılara belirli özgürlükleri sunar. Özgür Yazılım, kullanıcıların özgürce yazılımı kullanma, paylaşma ve değiştirme hakkına sahip olduğunu vurgular. Açık Yazılım genellikle Özgür Yazılım prensiplerini destekler, ancak her Açık Yazılım Özgür Yazılım olarak kabul edilmez.
 
-### Generative AI
-https://www.youtube.com/watch?v=o8-3QZ718Kk
+## Generative AI
 
-******************************************
+[Generative AI](https://www.youtube.com/watch?v=o8-3QZ718Kk)
+
+
+
+
+
+
+
+
+
 # Hafta 5
 
-### Genel Kültür
+## Genel Kültür
 
 ### Kod Okunabilirliği İpuçları
 
@@ -95,20 +109,25 @@ Nesne tabanlı programlamaya örnek olarak Java, Python ve C++ gibi diller veril
 
 Her iki programlama paradigması da kendi kullanım senaryolarına sahiptir. Fonksiyonel programlama, durumun önemli olmadığı veya yan etkilerin minimal olduğu durumlar için genellikle daha uygundur. Nesne tabanlı programlama ise genellikle büyük ve karmaşık yazılım sistemlerinde, nesneler arasındaki etkileşimi modellemek için kullanılır. Ancak, modern diller genellikle birkaç paradigmayı birleştirebilen çok-paradigmali yaklaşımları benimser, bu yüzden bir programcının her iki yaklaşımla da rahat olması önemlidir.
 
-
 ### Yazılım Alanları Tanıyalım 5: Veri Bilimi
-https://www.youtube.com/watch?v=zhamJScIHWE
+
+[Veri Bilimi](https://www.youtube.com/watch?v=zhamJScIHWE)
 
 
 
-******************************************
+
+
+
+
+
+
+
 # Hafta 4
 
-### Genel Kültür
-<img width="431" alt="Screenshot 2024-05-10 at 23 22 30" src="https://github.com/busecoban/IBM_CyberStart/assets/73944611/0091a130-5104-40a2-9c1e-5391820bfc6b">
+## Genel Kültür
+![Akış Diyagramları](https://github.com/busecoban/IBM_CyberStart/assets/73944611/0091a130-5104-40a2-9c1e-5391820bfc6b)
 
-
-#### Akış Diyagramları
+### Akış Diyagramları
 
 Akış diyagramları, bir sistemin işleyişini veya bir algoritmanın adımlarını görsel olarak temsil eden diyagramlardır. Bu diyagramlar, yazılım geliştirme sürecinde bir programın işleyişini anlamak ve analiz etmek için kullanılır.
 
@@ -158,10 +177,11 @@ Akış diyagramları, bir sistemin işleyişini veya bir algoritmanın adımlar�
 
 Her dilin kendine özgü avantajları ve dezavantajları vardır ve tercih edilen yöntem, projenin gereksinimlerine ve hedeflerine bağlı olarak değişir.
 
-**Kaynak Kod Nedir?**
-  Kaynak kod, bir programın yazılım dilindeki orijinal kodudur. Yazılım geliştiricileri tarafından oluşturulur ve programın makine koduna dönüştürülmesi için kullanılır.
+#### Kaynak Kod Nedir?
 
-  ### Derleme ve Yorumlama
+Kaynak kod, bir programın yazılım dilindeki orijinal kodudur. Yazılım geliştiricileri tarafından oluşturulur ve programın makine koduna dönüştürülmesi için kullanılır.
+
+### Derleme ve Yorumlama
 
 **Derleme**: Kaynak kodunun doğrudan derleyici tarafından makine koduna dönüştürülmesiyle gerçekleştirilir. Derleme sonucunda oluşan makine kodu doğrudan bilgisayar tarafından çalıştırılabilir.
 
@@ -187,11 +207,11 @@ Her dilin kendine özgü avantajları ve dezavantajları vardır ve tercih edile
 
 Her dilin kendine özgü avantajları ve dezavantajları vardır ve tercih edilen yöntem, projenin gereksinimlerine ve hedeflerine bağlı olarak değişir.
 
-### Temel Bilgisayar Ağları
+## Temel Bilgisayar Ağları
 
-https://www.patika.dev/blog/temel-internet-kavramlari-nelerdir-internet-ve-yazilim-iliskisi
+[Temel İnternet Kavramları](https://www.patika.dev/blog/temel-internet-kavramlari-nelerdir-internet-ve-yazilim-iliskisi)
 
-#### Bilgisayar Ağlarına Giriş
+### Bilgisayar Ağlarına Giriş
 
 #### Nedir?
 
@@ -211,69 +231,84 @@ Bilgisayar ağları, birbiriyle iletişim kurabilen ve kaynakları paylaşabilen
 - **WAN (Geniş Alan Ağı):** Şehirler veya ülkeler arası gibi geniş bir alanda birbiriyle iletişim kuran cihazları kapsar. Örnek: İnternet.
 - **MAN (Metropol Alan Ağı):** Bir şehir gibi bir bölgede birbiriyle iletişim kuran cihazları kapsar. Örnek: Bir şehrin kamu kurumlarının ağı.
 
-#### Ağ Donanımı
+### Ağ Donanımı
 
 - **Ağ kabloları ve konektörleri:** Ağ kabloları, bilgisayarları ve diğer ağ cihazlarını birbirine bağlamak için kullanılır. En yaygın ağ kablosu türleri RJ-45 konektörlü Ethernet kablolarıdır.
 - **Ağ kartları:** Ağ kartları, bilgisayarların ağa bağlanmasını sağlayan donanım cihazlardır. Her bilgisayarın bir ağ kartı olması gerekir.
 - **Hub, switch ve yönlendiriciler:** Hub'lar, birden fazla ağ cihazını birbirine bağlamak için kullanılan donanım cihazlardır. Switch'ler, hub'lara benzer şekilde birden fazla ağ cihazını birbirine bağlar, ancak daha fazla özellik sunarlar. Yönlendiriciler, birden fazla ağ arasında veri trafiğini yönlendirmek için kullanılır.
 - **Modemler:** Modemler, internet servis sağlayıcısının sinyalini bilgisayarların kullanabileceği bir sinyale dönüştüren donanım cihazlardır.
 
-#### Ağ Yazılımı
+### Ağ Yazılımı
 
 - **IP adresleri ve alt ağ maskeleri:** IP adresleri, ağdaki her bir cihazın benzersiz bir adresini belirler. Alt ağ maskeleri, IP adresinin hangi kısmının ağ kimliğini ve hangi kısmının cihaz kimliğini belirlediğini gösterir.
 - **Protokol katmanları (TCP/IP modeli):** TCP/IP modeli, ağ iletişiminin nasıl gerçekleştiğini tanımlayan bir dizi katmandan oluşur. Her katman farklı bir işlevden sorumludur.
 - **DHCP ve DNS:** DHCP, ağdaki cihazlara otomatik olarak IP adresi atayan bir hizmettir. DNS, web sitesi adlarını IP adreslerine dönüştüren bir hizmettir.
 - **NAT:** NAT, birden fazla ağ cihazının tek bir IP adresi ile internete erişmesine izin veren bir teknolojidir.
 
-#### Ağ Güvenliği
+### Ağ Güvenliği
 
 - **Temel ağ güvenliği tehditleri:** Virüsler, casus yazılımlar ve kimlik avı gibi çeşitli ağ güvenliği tehditleri vardır.
 - **Güvenlik duvarları ve antivirüs yazılımı:** Güvenlik duvarları, izinsiz girişleri engellemek için ağdaki trafiği izleyen yazılım programlarıdır. Antivirüs yazılımı, bilgisayarları virüslere karşı korumak için kullanılır.
 - **Şifreleme:** Şifreleme, verileri yetkisiz erişime karşı korumak için kullanılır.
 
-### Yazılım Alanları Tanıyalım 4: Oyun Geliştirme
-https://www.youtube.com/watch?v=sno5uOOgzjU
+## Yazılım Alanları Tanıyalım 4: Oyun Geliştirme
+[Video](https://www.youtube.com/watch?v=sno5uOOgzjU)
 
-******************************************
+
+
+
+
+
+
+
+
+
+
 # Hafta 3
 
-### Genel Kültür
+## Genel Kültür
 
-1️⃣ **Java**:
+- **Java**:
    - Java Virtual Machine (JVM) kullanılarak farklı işletim sistemlerinde çalışabilir.
 
-2️⃣ **JavaScript**:
+- **JavaScript**:
    - Web sayfalarında kullanılan bir programlama dilidir.
 
-3️⃣ **Python**:
+- **Python**:
    - Veri analizi, bilimsel hesaplamalar, web sayfası oluşturma veya oyun geliştirme gibi birçok alanda kullanılır.
 
-4️⃣ **PHP**:
+- **PHP**:
    - Web sayfalarında dinamik içerik oluşturmak için kullanılan bir programlama dilidir.
    - Sunucu tarafında çalışır ve web sayfalarını dinamik hale getirir.
 
-5️⃣ **C**:
+- **C**:
    - Bilgisayar programlamasının temelini oluşturan bir programlama dilidir.
    - Düşük seviyeli bir dil olarak bilinir ve yüksek performanslı uygulamaların geliştirilmesinde kullanılır.
 
-6️⃣ **C++**:
+- **C++**:
    - Bilgisayar yazılımları ve oyunlar için yaygın olarak kullanılan bir programlama dilidir.
    - Yüksek performanslı uygulamaların geliştirilmesi için idealdir.
 
-7️⃣ **C#**:
+- **C#**:
    - Microsoft tarafından geliştirilmiş bir programlama dilidir.
    - Windows işletim sistemi ve .NET Framework ile uyumludur.
    - Masaüstü uygulamaları, web uygulamaları ve oyunlar gibi birçok farklı uygulama türü için kullanılabilir.
 
-      **ChatGPT'yi Verimli Kullanmanın Yolları**:
-https://github.com/f/awesome-chatgpt-prompts
+## ChatGPT'yi Verimli Kullanmanın Yolları
 
+[GitHub Link](https://github.com/f/awesome-chatgpt-prompts)
 
 ### Yazılım Alanları Tanıyalım 3: IOS vs. Android Developer | w/Gamze Yılmaz & Nalan Ulusoy
-https://www.youtube.com/watch?v=zSHo5chSJ1U&t=48s
+
+[YouTube Video](https://www.youtube.com/watch?v=zSHo5chSJ1U&t=48s)
 
 
-******************************************
+
+
+
+
+
+
 # Hafta 2
 
 https://open.spotify.com/playlist/022a26waGCUp9FZIqVVsan?si=92293015c8c045ba
