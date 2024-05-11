@@ -350,6 +350,61 @@ https://www.ibm.com/blog/cloud-social-change/?ite=69293&ito=2166&itq=dc9728f8-e2
 
 - Top 7 most common uses of cloud computing
 https://www.ibm.com/blog/top-7-most-common-uses-of-cloud-computing/
+
+## Zayıf Yapay Zeka
+
+- Çoğu şirket, işleri daha hızlı ve daha düşük maliyetle otomatik hale getirmek için zayıf yapay zekayı kullanır.
+- Zayıf yapay zeka, belirlenmiş işlerde insanlardan daha iyi performans gösterir.
+- Örnekler:
+  - Müşteri hizmetleri sorularını yanıtlayan sohbet robotları
+  - Facebook'taki yüz tanıma özelliği
+  - Amazon'daki satın alma önerileri
+  - Ses metnini dönüştürebilen uygulamalar (Alexa, Google Assistant, Siri)
+
+## Arttırılmış Zeka
+
+- İnsan zekasına yönelik tamamlayıcı bir rol oynar, insanların daha iyi karar almalarına yardımcı olur.
+- İnsanların yerini almaz, uzmanlıklarını geliştirir ve verimliliklerini artırır.
+- Örnek: IBM Watson for Oncology, sağlık uzmanlarının kanser tedavisi üzerine karar almalarına yardımcı olur. Tedaviyi seçmez, sadece önerir.
+
+## Genel Yapay Zeka
+
+- Henüz icat edilmedi, ancak bir hedef olarak belirtiliyor.
+- Bir makinenin birçok farklı konuda karar alabileceği bir tür "tam beyin emülasyonu" olacak.
+- Pratik bir teknoloji değil, uzun vadeli bir hedef.
+- Ulaşmak için ek araştırma ve daha güçlü bilgisayarlar gerekecek.
+
+## Akıllı Makineleri Oluşturmanın Yolları
+
+Yapay Zeka
+- Yapay zeka, genellikle insan zekasıyla ilişkilendirilen yetenekleri kullanan makineleri tanımlar.
+- Günümüzdeki yapay zeka çalışmaları; öğrenme, mantık yürütme, sorun çözme, algılama ve insan dilini anlamaya odaklanır.
+- Yapay zeka, insanların daha zeki olmalarına, iletişim kurmalarına, toplum için sorunları çözmelerine ve çalışma şekillerini değiştirmelerine yardımcı olabilir.
+
+Makine Öğrenimi
+- Makine öğrenimi (ML), verilerden öğrenmek için algoritmaları kullanır.
+- Veri girişiyle, istatistik analizi yaparak bir çıktı elde eder.
+- Veri miktarı arttıkça, doğruluk seviyesi de artar.
+- Gözetim altında öğrenim, gözetimsiz öğrenim ve pekiştirme öğrenimi olmak üzere üç türü vardır.
+- Dinamiktir ve daha fazla veriye maruz bırakıldıkça kendini düzeltebilir.
+
+Derin Öğrenme
+- Derin öğrenme, problem çözerken istatistik modellerine odaklanan bir makine öğrenimi alt kategorisidir.
+- Karmaşık problemleri çözmek için insan beyninden ilham alan yapay sinir ağları kullanır.
+- Büyük veri ve devasa bilişim gücü gerektirir.
+- Görseller, metinler veya seslerden yüksek doğrulukla sınıflandırma yapabilir.
+- Örnek: Sürücüsüz araçların dur işaretlerini tanıması veya yayaları trafik ışıklarından ayırması gibi.
+
+
+## Yapay Zeka için Oyun Uygulamaları
+
+- En ünlü yapay zeka uygulamalarından bazıları, oyun dünyasından çıkmıştır.
+- Örnek olarak, satrançta IBM'in Deep Blue'su ve şu anki şampiyon Stockfish 9'a karşı en büyük satranç ustalarının becerilerini test ettiği bilgisayar programları verilebilir.
+- Bu tür gelişmiş ancak kısıtlı yapay zeka, sürücüsüz araç kontrolü gibi karmaşık görevleri yerine getiremez, ancak satranç gibi belirli oyunlarda insan rakiplere karşı üstünlük sağlayabilir.
+- IBM Watson'un, Wikipedia ve diğer kaynaklardan elde edilen büyük veri setleriyle Jeopardy! şampiyonluğunu kazanmasının, doğal dil işleme konusundaki ilerlemelerde nasıl bir rol oynadığını gösteren bir örnek vardır.
+- Oyun sistemleri, yapay zeka teknolojisinin karmaşık ve hızlı zorluklar sunarak gelişmesine katkıda bulunur ve çözümleri yeni yapay zeka uygulamalarına öncülük eder.
+
+
 ## Genel Kültür
 
 - **Java**:
