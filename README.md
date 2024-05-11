@@ -266,6 +266,90 @@ Bilgisayar ağları, birbiriyle iletişim kurabilen ve kaynakları paylaşabilen
 
 # Hafta 3
 
+## Bulut Bilişim
+
+<img width="818" alt="Screenshot 2024-05-11 at 03 57 27" src="https://github.com/busecoban/IBM_CyberStart/assets/73944611/08ca54d7-b61e-44f9-8ea2-8927108667b4">
+
+## Genel Bulut (Public Cloud):
+- Genel bulut, hizmet sağlayıcıları tarafından sunulan ve geniş bir kullanıcı kitlesi tarafından paylaşılan bir bilgi işlem kaynağıdır. Bu kaynaklar, internet üzerinden erişilebilir ve genellikle pay-per-use (kullanıma göre öde) modeliyle sunulur. Genel bulut hizmetleri, kullanıcıların donanım veya yazılım satın almalarına gerek kalmadan altyapıyı, platformu veya yazılımı kullanmalarını sağlar. Örnek genel bulut sağlayıcıları arasında Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP) gibi büyük şirketler bulunur.
+
+  **Genel bulutun temel özellikleri şunlardır:**
+
+- Pay-Per-Use (Kullanıma Göre Ödeme): Kullanıcılar sadece kullandıkları kaynaklar için ödeme yaparlar.
+
+- Ölçeklenebilirlik: Kullanıcılar ihtiyaçlarına göre kaynakları kolayca artırabilir veya azaltabilirler.
+
+- Paylaşılan Kaynaklar: Fiziksel kaynaklar birden fazla müşteri arasında paylaşılır.
+
+- Geniş Erişim: İnternet aracılığıyla dünyanın her yerinden erişilebilir.
+
+## Özel Bulut (Private Cloud):
+- Özel bulut, tek bir kuruluşa veya kuruluşa özel bir topluluğa ait olan ve bu kuruluşun kendi veri merkezinde barındırdığı bir bulut bilişim ortamıdır. Özel bulut, şirket içi uygulamaların ve verilerin depolanması ve işlenmesi için kullanılır. Bu tür bir bulut, genellikle işletmelerin güvenlik ve uyumluluk gereksinimlerini karşılamak için tercih edilir. Özel bulut, işletmelerin donanımı ve yazılımı barındırmak ve yönetmek için kendi kaynaklarını kullanmalarını sağlar.
+
+  **Özel bulutun temel özellikleri şunlardır:**
+
+- Özel Kaynaklar: Kaynaklar yalnızca belirli bir kuruluş veya topluluk için ayrılmıştır.
+
+- Güvenlik ve Uyumluluk: Veriler ve uygulamalar, şirket içi güvenlik politikalarına ve düzenlemelere uygun olarak korunur.
+
+- Daha Fazla Kontrol: Kuruluşlar, altyapıyı ve kaynakları kendi gereksinimlerine göre özelleştirebilirler.
+
+- Düşük Paylaşım Oranı: Kaynaklar yalnızca belirli bir kuruluş veya topluluk tarafından kullanılır.
+
+## Hibrit Bulut (Hybrid Cloud):
+- Hibrit bulut, hem genel bulut hem de özel bulutun bir arada kullanıldığı bir bulut bilişim modelidir. Bu modelde, işletmeler belirli veri ve uygulamalarını özel bulutta saklarken, diğerlerini genel bulutta saklarlar. Hibrit bulut, işletmelere esneklik, güvenlik ve maliyet verimliliği sağlar.
+
+  **Hibrit bulutun temel özellikleri şunlardır:**
+
+- Esneklik: İşletmeler, ihtiyaçlarına göre özel ve genel bulutları bir arada kullanarak esneklik sağlayabilirler.
+
+- Maliyet Etkinliği: Daha hassas veriler özel bulutta saklanırken, daha az hassas olanlar genel bulutta saklanarak maliyetler optimize edilir.
+
+- Yedekleme ve Kurtarma: İşletmeler, özel bulutta hassas verilerini yedekleyebilir ve genel bulutta bu verilere erişim sağlayabilirler.
+
+- Güvenlik ve Uyumluluk: Özel bulut, işletmelere daha fazla kontrol ve güvenlik sağlar, aynı zamanda belirli düzenlemelere uyum sağlamalarına yardımcı olabilir.
+
+- Performans: Duyarlı uygulamalar özel bulutta barındırıldığı için daha iyi performans gösterebilir.
+
+<img width="793" alt="Screenshot 2024-05-11 at 04 01 04" src="https://github.com/busecoban/IBM_CyberStart/assets/73944611/71cd6d0d-4dcd-4849-b97b-e48f71f87920">
+
+## hizmet olarak sunulan yazılım (SaaS)
+- SaaS ile hem yazılımlar hem de veriler çevrimiçi ortamda barındırılır. Kullanıcılar, neredeyse her tür işletim sistemi üzerindeki neredeyse her tür aygıtı kullanarak bir tarayıcıda oturum açabilir, ihtiyaç duydukları şeyleri girebilir ve anında sonuç alabilirler. Kuruluşlarının SaaS'yi kullanmak için özel yazılımlara ihtiyacı olmadığından, uygulama satın almaları gerekmez. Bunun yerine, hizmete yıllık ya da kullanıcı başına abonelik ücreti öderler.
+
+- SaaS'yi bir başkasının mutfağı olarak düşünebilirsiniz. Çevrimiçi olursunuz ve siparişinizi verirsiniz. Size tarifi verirler, yemeği pişirirler ve size sunarlar.
+
+- SaaS ifadesini duyduğunuzda, e-posta veya çevrimiçi alışveriş gibi kullanım biçimlerini düşünün.
+## hizmet olarak sunulan platform (PaaS)
+- Satıcı firma, PaaS ile yalnızca platformu sağlar; yani, altyapıyı, işletim sistemlerini, depolamayı ve kodun büyük bir kısmını sağlar. Uygulamanın kaynaklarını ve verileri kullanıcının kuruluşu tarafından yönetilir. (Altyapıya ilişkin daha fazla bilgi için sonraki bölüme bakın.)
+
+- PaaS'yi bir başkasının mutfağı olarak düşünebilirsiniz. Ancak malzemeleri ve tarifi siz sağlarsınız ve pişirmeyi de siz yaparsınız.
+
+- PaaS'yi duyduğunuzda, konteynerleri, veritabanlarını, çalıştırma zamanını ve entegrasyonu düşünün.
+## hizmet olarak sunulan altyapı (IaaS)
+- Şirketler, kendi uygulamalarını sıfırdan oluşturmak veya BT maliyetlerini düşürmek için mevcut uygulamaları bir veri merkezinden kuruluşa taşımak istediklerinde IaaS'yi tercih ederler. Satıcı firma, IaaS ile donanım, yazılımlar, sunucular ve depolama gibi altyapıyı ve mimariyi sağlarken aynı zamanda yedekleme, güvenlik ve bakım gibi pahalı destek sistemlerini yönetir. Bu, kuruluşun bilişim mimarisinin web üzerinde kalmasını sağlar, böylece farklı lokasyonlardaki ekipler birlikte çalışabilirler ve aynı zamanda uygulama geliştirme de şirketin kendi çevrimiçi yapısı içinde kalır.
+  
+- IaaS'yi kendi mutfağınız olarak düşünebilirsiniz. Burada tarifi kendiniz sağlar ve pişirmeyi de kendiniz yaparsınız. Ancak, beyaz eşyanızın bakımı ve aletlerinizin yönetimi başka biri tarafından sağlanır.
+- IaaS'yi duyduğunuzda, bilişim, depolama ve ağ kaynaklarını düşünün.
+
+<img width="799" alt="Screenshot 2024-05-11 at 04 02 22" src="https://github.com/busecoban/IBM_CyberStart/assets/73944611/b5948af8-f7bc-431f-bf1b-fb5ee7dc628a">
+
+https://bundles.yourlearning.ibm.com/skills/learn/assets/JYNVQZYDVRRR3423/Cloud%20Computing%20Terminology_tr-TR.pdf
+
+## Bulut bilişim becerilerinizi geliştirmek için başka neler yapabilirsiniz?
+- IBM blog yazarları, bulut bilişime ilişkin daha derinlemesine bir bakış açısı için harika bir kaynaktır. Bulut bilişimi dünyanın her yanında iş başında görmek için zaman zaman yeniden ziyaret edin.
+
+- Bulut bilişim hakkında daha fazla bilgi edinmek ve iş başındaki IBM Cloud hizmetlerine ilişkin örnekler için Thoughts on Cloud sitesini inceleyin.
+
+- Thoughts on Cloud
+ https://www.ibm.com/blog/
+ 
+IBM Thoughts on Cloud sayfasından bu makalelerle bulut bilişim teknolojisini daha derinlemesine inceleyin ve bu alandaki potansiyel kariyerler hakkında bilgi edinin:
+
+- Good tech in practice: How cloud is making the world a better place
+https://www.ibm.com/blog/cloud-social-change/?ite=69293&ito=2166&itq=dc9728f8-e287-4025-ae2e-9ea4eecf15bd&itx%5Bidio%5D=48377951
+
+- Top 7 most common uses of cloud computing
+https://www.ibm.com/blog/top-7-most-common-uses-of-cloud-computing/
 ## Genel Kültür
 
 - **Java**:
@@ -322,7 +406,6 @@ Bilgisayar ağları, birbiriyle iletişim kurabilen ve kaynakları paylaşabilen
 #### İş yerindeki anlaşmazlıkları çözme
 
 <img width="687" alt="Screenshot 2024-05-11 at 03 24 07" src="https://github.com/busecoban/IBM_CyberStart/assets/73944611/f98e9fa6-4e7e-4c23-a20d-33cc675312d6">
-
 
 
 ## ChatGPT'yi Verimli Kullanmanın Yolları
