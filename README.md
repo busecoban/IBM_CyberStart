@@ -293,6 +293,37 @@ Bilgisayar ağları, birbiriyle iletişim kurabilen ve kaynakları paylaşabilen
    - Microsoft tarafından geliştirilmiş bir programlama dilidir.
    - Windows işletim sistemi ve .NET Framework ile uyumludur.
    - Masaüstü uygulamaları, web uygulamaları ve oyunlar gibi birçok farklı uygulama türü için kullanılabilir.
+     
+## IBM Professional Skills
+
+"İletişimde en önemli şey söylenmeyeni duymaktır."
+
+– Peter Drucker, yazar, yönetim danışmanı ve sosyal ekolog
+
+"Altı dürüst adamım var. Bildiğim her şeyi bana onlar öğretti. Adları; ne, neden, ne zaman, nasıl, nerede ve kim."
+
+– Rudyard Kipling, İngiliz gazeteci, yazar ve şair
+
+"Etkili olmak için 'nüfuslu insan' olmanıza gerek yok."
+
+– Scott Adams, Dilbert çizgi romanın yaratıcısı ve yazarı
+
+#### İş yerindeki anlaşmazlıklar kişilerarası becerileri geliştirme fırsatlarıdır
+<img width="745" alt="Screenshot 2024-05-11 at 03 20 57" src="https://github.com/busecoban/IBM_CyberStart/assets/73944611/be593e3c-dae9-4fb4-846a-2ac0410645b4">
+
+#### Anlaşmazlığın üstesinden gelmenize yardımcı olacak beş adım
+
+<img width="734" alt="Screenshot 2024-05-11 at 03 21 18" src="https://github.com/busecoban/IBM_CyberStart/assets/73944611/7532f6a6-7578-4e67-8538-271466b299c9">
+
+#### Geribildirim kör noktaların etkisini ortadan kaldırır
+
+<img width="740" alt="Screenshot 2024-05-11 at 03 22 00" src="https://github.com/busecoban/IBM_CyberStart/assets/73944611/95f975e8-8019-45bf-87ee-e392c212aa4d">
+
+#### İş yerindeki anlaşmazlıkları çözme
+
+<img width="687" alt="Screenshot 2024-05-11 at 03 24 07" src="https://github.com/busecoban/IBM_CyberStart/assets/73944611/f98e9fa6-4e7e-4c23-a20d-33cc675312d6">
+
+
 
 ## ChatGPT'yi Verimli Kullanmanın Yolları
 
