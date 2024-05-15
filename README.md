@@ -55,6 +55,50 @@ Kapalı Yazılım, kaynak kodunun geliştirici veya şirket tarafından gizli tu
 [Generative AI](https://www.youtube.com/watch?v=o8-3QZ718Kk)
 
 
+"Yaptığımız her şeyde, çevik bir biçimde çalışmak asli önem taşıyor. Bir sonucun öngörülmesi, prototip oluşturma, yineleme, disiplinler arası ekipler... bunları günümüzde IBM'in çoğu biriminde yapıyoruz, ancak şimdi bunu kurumsal düzeyde ölçeklendiriyoruz."
+
+– Ginni Rometty, IBM CEO, 2012-2020
+
+
+<img width="833" alt="Screenshot 2024-05-16 at 02 36 32" src="https://github.com/busecoban/IBM_CyberStart/assets/73944611/e63e58f4-cc58-4063-8052-5418cfc44d4a">
+
+"Çevik metodolojide yalnızca tek soru vardır: Nasıl daha iyi olabilirim?"
+
+– Phil Abernathy, Çevik liderlik koçu
+
+## Deneyebileceğiniz çevik uygulamalar!
+
+Çevik bir biçimde çalışmaya başlamak için ne yapabilirsiniz? Sonraki projenizde deneyebileceğiniz birkaç uygulamayı aşağıda bulabilirsiniz.
+
+- **Günlük ayak üstü toplantılar gerçekleştirin**
+- **Daha fazlasını yapmak için yavaşlayın**
+- **Geriye dönük değerlendirmeler gerçekleştirin**
+- **Shu-Ha-Ri: Çevik bir biçimde çalışmaktan çevik olmaya geçiş**
+
+### Shu-Ha-Ri: Çevik bir biçimde çalışmaktan çevik olmaya geçiş
+
+*"Dövüş sanatlarını öğrenirken Shu-Ha-Ri'yi görürsünüz. Başlangıçta ustayı taklit edersiniz, daha sonra kendi tekniklerinizle denemeler yapar ve en sonunda bir öğretmen olursunuz."*
+– Alistair Cockburn, bilgisayar bilimci ve çevik hareketinin kurucularından
+
+Çevik metodolojileri ve uygulamaları öğrenirken ve uygularken, belirli bir yaklaşımı benimseyebilirsiniz. Örneğin, çevik uygulamaları ilk kez kullanmaya başladığınızda, yönergeleri kelimesi kelimesine takip edebilirsiniz. Uygulamaları birkaç defa gerçekleştirdikten sonra, deneyler yapmak ve ekibiniz için nelerin işe yaradığını bulmak isteyebilirsiniz. Ekibiniz için nelerin işe yaradığını gördükten sonra, tekniklerinizi ve fikirlerinizi diğer ekiplerle paylaşabilirsiniz.
+
+Öğrenmeye ilişkin bu düşünce yapısı, Japonca'da **"Shu-Ha-Ri"** olarak anılır.
+
+- **Shu** - kuralı takip et (beyaz kuşaklı dövüş sanatları öğrencisi)
+- **Ha** - kuralı yık (sarı kuşaklı dövüş sanatları öğrencisi)
+- **Ri** - kendi kurallarını belirle (siyah kuşaklı dövüş sanatları öğrencisi)
+
+### Bu seviyeler ne anlama geliyor?
+
+- **Shu**: Kuralı takip et
+  - Yönergeler alır ve yönergeleri kelimesi kelimesine uygularsınız. Oyun oynamazsınız.
+- **Ha**: Kuralı yık
+  - Birkaç alıştırma yaptıktan sonra, deneyler yapabilir ve farklı şeyler deneyebilirsiniz.
+- **Ri**: Kendi kurallarını belirle
+  - Deneylerinizde ustalaştığınızda, kendi yönergelerinizi yazabilir veya insanlara kendi yaklaşımınızdan bahsedebilirsiniz.
+
+
+<img width="830" alt="Screenshot 2024-05-16 at 02 38 39" src="https://github.com/busecoban/IBM_CyberStart/assets/73944611/a55ee495-72e0-4cb7-b903-47575c1240ba">
 
 
 
@@ -123,6 +167,215 @@ Her iki programlama paradigması da kendi kullanım senaryolarına sahiptir. Fon
 
 
 # Hafta 4
+
+## Veri Bilimi
+
+**R:**
+- İstatistik analizi ve veri bilimi için sıkça kullanılan bir programlama dili ve ücretsiz bir donanım ortamıdır.
+- R içerisinde, ggplot2 gibi veri görselleştirmesi konusunda yardımcı olacak yüzlerce paket bulunmaktadır.
+- RStudio, R'de çalışmanın popüler bir arabirimidir.
+
+**Python:**
+- Veri bilimi için de kullanılabilen genel amaçlı bir programlama dilidir.
+- `pandas` gibi kütüphaneler ve kullanıcı dostu arayüzlerle birleştirildiğinde, yeni içgörüler ve veri görselleştirmeleri oluşturmanıza yardımcı olabilir.
+
+**MATLAB:**
+- Sayısal hesaplamalara odaklanmış bir programdır.
+- Genellikle yüksek öğrenimde kullanılır.
+
+**Apache Spark:**
+- Aşırı derecede büyük veri setleri ve makine öğrenimi için özellikle kullanışlı olan, tescilli bir genel amaçlı çerçevedir.
+
+### Veri görselleştirmesi için doğru aracı seçin
+
+- Tableau, kod yazmadan interaktif görselleştirmeler oluşturmanıza yardımcı olabilir. Çoğu çevrimiçi kuruluş tarafından kullanılması, bu aracı keşfetmeniz için harika bir araç haline getirir.
+
+- En popüler R çalışma alanlarından birisi olan ggplot2, daha az güçlü diğer programlar için daha karmaşık olan verilerin görselleştirilmesine yardımcı olabilir.
+
+- Matplotlib, Python programlama diliyle çalışan popüler bir görselleştirme aracıdır. Programcıların birçok farklı formatta çizelge, grafik ve harita oluşturmalarına yardımcı olur.
+
+
+### Makine öğrenimine güç katmak için verileri kullanın
+
+<img width="427" alt="Screenshot 2024-05-16 at 01 37 36" src="https://github.com/busecoban/IBM_CyberStart/assets/73944611/06142b79-bc42-461e-9d86-03d44bebe8fe">
+
+- **Makine öğrenimi, verileri kullanarak bilgisayar sistemlerinin öğrenmesini sağlar.**
+- **Bu sistemler, adımlara tabi programlar veya belirli kurallar olmadan öğrenebilir.**
+- **Günümüzde, makine öğrenimi sayesinde bilgisayarlar çevrelerini algılayarak hedeflerine yönelik kararlar alabilir hale geldi.**
+- **Örneğin, bankaların sistemleri artık el yazısını okuyarak çekleri işleyebilir hale geldi.**
+- **Ayrıca, kanser tedavisinde de makine öğrenimi kullanılarak hastalara daha iyi ve kişiselleştirilmiş tedavi seçenekleri sunulabiliyor.**
+- **Doktorlar, binlerce araştırma raporunu okuyarak hastalar için en iyi tedavi seçeneklerini belirlemek yerine, makine öğrenimi modellerinin sunduğu verilere dayanarak daha hızlı ve etkili kararlar alabiliyorlar.**
+
+  ### oku : https://www.ibm.com/blog/
+
+## Blockchain
+
+**IBM CEO'su Ginni Rometty (2012-2020) sıklıkla şunu söylüyor: "İnternet'in bilgi için yaptığını blockchain işlemler için yapacak".**
+
+- Bu ne anlama geliyor? Blockchain'in işlem verilerinden çok daha fazlası olduğunu açıklar. Teknolojinin olgunluk seviyesine ulaşmasıyla birlikte blockchain, muhtemelen internet'in erken dönemleriyle paralellik gösterecek, ancak çok daha hızlı bir şekilde ilerleyip diğer sistemlerle, hizmetlerle ve analitikle bağlantı kurabilecektir. İnternet; analitik ve veriler, yapay zeka ve kognitif teknolojiler ve nesnelerin interneti (IoT) ile bağlantılı olacak şekilde nasıl büyüme kaydettiyse blockchain de benzer bir rota izleyecek.
+
+**Peki Nasıl Çalışır?**
+
+- **Blok Nedir?**
+  - Blok, kronolojik sırada tutulan ve bir blockchain içinde kodlanan işlemler grubudur.
+  - Her bir blok, bir önceki ve bir sonraki bloğa bağlıdır.
+  - Yeni işlemlerle birlikte yeni bloklar oluşturulur ve bu bloklar birleşerek değiştirilemeyen bir zincir olan blockchain'i oluşturur.
+
+- **Blockchain Oluşturma Süreci:**
+  - Her işlem bir bloğa yerleştirilir.
+  - Her blok, önceki ve sonraki bloğa bağlıdır.
+  - İşlemler bir araya gelerek blokları oluşturur ve değiştirilemeyen bir zincir olan blockchain'i oluşturur.
+
+- **Dijital Varlıkların Takibi:**
+  - Blockchain, dağıtık defter teknolojisini kullanarak dijital varlıkların A noktasından B noktasına hareketini izler.
+  - Bu, blockchain defterlerinin, yazılımını çalıştıran tüm bilgisayarlara dağıtılmış olduğu anlamına gelir.
+
+- **Blockchain ve Veritabanı Arasındaki Fark:**
+  - Blockchain'de kayıtlar tek bir merkezi noktada tutulmaz; eşzamanlı olarak bilgisayarlarda paylaşılır.
+  - Her katılımcı tüm kayıtların ve değişikliklerin güvenli bir kopyasına sahip olduğundan verilerin denetim geçmişini herkes görüntüleyebilir.
+  - Blockchain teknolojisi, merkezi bir üçüncü kişiye gerek olmadan işlemlerin denetlenmesini ve doğruluğunun onaylanmasını sağlar.
+
+- **Blockchain Türleri:**
+  - **Genel Blockchain'ler:**
+    - Güveni ve gücü ağdaki tüm katılımcılara dağıtır, yani herkes bunun bir parçası olabilir.
+    - Örnekler: Bitcoin, Ethereum
+  - **Özel Blockchain'ler:**
+    - “Güvenilir” bir ortamda çalışır ve daha güvenli oldukları düşünülür.
+    - Örnek: Hyperledger Fabric
+
+- **Bitcoin ve Blockchain:**
+  - Bitcoin, gerçekleşen tüm Bitcoin işlemlerini takip etmek için blockchain teknolojisini kullanır.
+  
+- **Önemli Noktalar:**
+  - Blockchain, internet üzerinden ürün ve hizmet karşılığı para transferinde iki taraf arasındaki güven, şeffaflık ve hesap verebilirlik sorunlarını çözmek için tasarlanmıştır.
+  - Blockchain, dijital dünyada işlemlerin yetkilendirilmesi ve doğrulanması için yeni yöntemler sunar.
+  
+
+- **Dijital bir defterdir!** Blockchain'ler işlemler hakkındaki bilgileri depolamak ve korumak için kullanılır.
+- **Dağıtıktır!** Blockchain, katılımcılar arasında paylaşılan bir kayıt sistemi olarak çalışır.
+- **İzinlere dayanır!** Ağdaki her üyenin erişim hakları vardır ve gizli bilgiler 'bilmesi gerekenler' temelinde paylaşılır.
+- **Güvenlidir!** Tüm ağ üyelerinden mutabakat gereklidir ve tüm geçerli işlemler kalıcı olarak kaydedilir. Hiç kimse bir işlemi silemez.
+
+**Satoshi Nakamoto, kripto para birimi Bitcoin'in yaratıcısıdır, ancak gerçek kimliği hala bilinmemektedir. 2008 yılında yayınladığı Bitcoin beyaz kağıdıyla (Bitcoin: A Peer-to-Peer Electronic Cash System) kripto para birimi dünyasını başlattı. Ancak, Satoshi Nakamoto'nun kimliği hala bir gizem olarak kalmaktadır. Satoshi'nin gerçek kimliği hakkında birçok spekülasyon var, ancak kimliği hakkında kesin bir bilgi bulunmamaktadır.**
+
+1. **Ulaşım:**
+   - Bir taşımacılık şirketi, sevkiyatı yapılan malların çıkış birimine kadar hareketini anında izlemek için blockchain tabanlı bir tedarik zinciri yaratabilir.
+   - Örnek: [Digitizing global trade with Maersk and IBM](https://www.ibm.com/blogs/blockchain/2017/08/digitizing-global-trade-maersk-ibm/)
+
+2. **Kamu:**
+   - Devlet yönetimleri, işlem ve varlıklar yığınını yönetmek ve dijitalleştirmek için blockchain'i kullanabilirler. Örneğin, her yıl başa çıkmak zorunda oldukları tahsilatlar, tediyeler, transferler, ücretler, para cezaları, onaylar gibi işlemleri blockchain ile yönetebilirler.
+   - Örnek: [How the UAE is empowering its citizens through blockchain](https://www.ibm.com/blogs/blockchain/2018/10/how-the-uae-is-empowering-its-citizens-through-blockchain/)
+
+3. **Gıda zinciri:**
+   - Bir gıda şirketi, yiyecekleri kaynağına kadar hızla izlemek için blockchain'i kullanabilir ve gıda kaynaklı hastalık tehdidini azaltabilir.
+   - Örnek: [Blockchain in food safety](https://www.ibm.com/blogs/blockchain/2018/02/blockchain-in-food-safety/)
+
+4. **Bankacılık:**
+   - Bir banka, ülkeler arası bankacılık işlemleri için gerekli zamanı azaltmak ve ödemeleri gerçek zamanlı olarak doğrulamak için blockchain'i kullanabilir.
+   - Örnek: [Practical examples of how blockchains are used in banking and the financial services sector](https://www.forbes.com/sites/forbestechcouncil/2019/11/15/practical-examples-of-how-blockchains-are-used-in-banking-and-the-financial-services-sector/)
+
+5. **Sağlık bilimi:**
+   - Bir ilaç şirketi, tedarik zincirine giren ve hastaları etkileyen sahte ilaçların akışını durdurmak için blockchain'i kullanabilir.
+   - Örnek: [What are the use cases for blockchain tech in healthcare?](https://www.ibm.com/blogs/blockchain/2018/01/use-cases-for-blockchain-technology-healthcare/)
+
+## Blockchain: Yeni Başlayanlar İçin Sözlük
+
+**Varlık**
+- Değer üretmek üzere sahip olunabilen veya kontrol edilebilen fiziksel veya dijital herhangi bir şey.
+- Ev, müzik, patentler veya nakit buna örnek verilebilir.
+
+**Bitcoin**
+- Para birimi (bitcoin) oluşturma sürecini düzenlemek ve para transferini doğrulamak için şifreleme tekniklerini kullanan bir tür dijital para birimi (tüm bunlar bir merkez bankasından bağımsız olarak yürütülür).
+
+**Blockchain**
+- Eşler arası bir ağda gerçekleşen zincir işlemler ve alışverişlerdeki veri bloklarını kaydeden bir dağıtık defter teknolojisi uygulaması.
+
+**İş ağı**
+- Bir ekonomi işlemindeki katılımcı grubu. Üyeler, her bir üyenin sahip olduğu ve içeriğinin diğerleriyle her zaman eşit olduğu bir defter aracılığıyla değerli öğeleri değiş tokuş eder ve doğrularlar. Bir iş ağında müşteriler, rakipler, tedarikçiler, bankalar, düzenleyiciler, devletler ve diğerleri bulunabilir.
+
+**Mutabakat**
+- Bir blockchain'deki tüm katılımcıların ağın doğruladığı bir işlemi kabul etme süreci. Mutabakat, paylaşılan defterlerin bire bir aynı kopyalar olmasını sağlar ve müdahalenin aynı anda birçok yerde gerçekleşmesi gerekeceğinden dolandırıcılık işlemleri riskini azaltır.
+
+**Kripto para**
+- Kripto para elektronik bir para birimidir; kağıt veya madeni para biçiminde bulunmaz. Güvenlik amacıyla şifreleme kullanılarak satıcı ve alıcı arasında dijital olarak değiş tokuş edilir; bankaların gözetiminde değildir veya devletler tarafından desteklenmez.
+
+**Kriptografi**
+- Bilgileri, şifreli metin adı verilen okunamayan bir biçime dönüştürerek (şifreleyerek) koruma yöntemi. Yalnızca bir gizli anahtara sahip olan kullanıcılar mesajı düz metin olarak deşifre edebilir (veya şifresini çözebilir).
+
+**Dağıtık defter teknolojisi**
+- Bir iş ağındaki katılımcılar arasında paylaşılan kayıt sistemi.
+
+**Şifreleme**
+- Özellikle anlamını gizlemek amacıyla (bilgileri) bir formdan diğer bir forma dönüştürme işlemi. Bkz. kriptografi.
+
+**Hyperledger**
+- İşlemlerin dünya çapında gerçekleştirilme biçimini dönüştürebilen dağıtık defterler için sektörler genelinde bir açık standardın önemli özelliklerini belirleyerek ve bunları ele alarak blockchain teknolojisini geliştirmeyi amaçlayan bir Linux Foundation açık kaynak projesi. Hyperledger; IBM Blockchain ürünleri, hizmetleri ve çözümleri için temel kod işlevi görür.
+
+**Defter**
+- Bir işle ilgili işlemleri kaydetmek için kullanılan sistem.
+
+**Akıllı sözleşmeler**
+- Bunlar defterle etkileşimleri yöneten bilgisayar protokolleridir ve ağ katılımcılarının bazı işlem özelliklerini otomatik yürütmelerine olanak sağlayabilir.
+
+**İşlem**
+- Bir kullanıcı tarafından defterde bir fonksiyonun çalıştırılması için blockchain'e iletilen istek.
+
+## Nesnelerin İnterneti nedir?
+
+https://www.zdnet.com/article/iot-devices-will-outnumber-the-worlds-population-this-year-for-the-first-time/
+
+<img width="837" alt="Screenshot 2024-05-16 at 01 51 22" src="https://github.com/busecoban/IBM_CyberStart/assets/73944611/0c817d25-9e57-4c95-b656-65a1584b2786">
+
+## Nesnelerin İnterneti (IoT) Kullanım Senaryoları:
+
+### Parça kullanım ömrü, izleme ve bakım sürecinde IoT
+
+- Tek tek nesneler veya parçalar ürünün durumu hakkında kritik bilgiler sağlar.
+- Bağlantılı sensörler ve kapsamlı analitik, parçanın menşeini izlemeye ve bakımını yapmaya olanak tanır.
+
+### Tedarik zincirinde IoT
+
+- IoT teknolojisi, tedarik zincirindeki bileşenlerin konumunu izleyip arz ve talebi paylaşılan bir blockchain ortamında yayınlayabilir.
+- Verilere anında erişilebilir ve analiz edilebilir, böylece üretim süreci optimize edilebilir.
+
+### Mevzuat uyumluluğu için IoT
+
+- Düzenleyici kurumlar ve üreticiler, IoT teknolojisi sayesinde ürün kullanım ve bakım bilgilerini paylaşabilir, uyumluluk belgelerini anında erişilebilir hale getirebilir.
+
+### Bina yönetimi
+
+- Bağlı sensörler, bina içindeki sistemlerin işleyişi hakkında veri oluşturur.
+- Bu veriler, binanın nasıl kullanıldığıyla ilgili bir log oluşturur ve bina sahipleri, kiracılar ve bina yönetim ekipleriyle paylaşılabilir.
+
+### Enerji tüketimi
+
+- IoT, karbon kredilerinin ve enerji tüketiminin doğru bir şekilde takibini sağlar.
+- Karbon emisyon kredisi alışverişinde karbon ayak izini dengelemek isteyenler için önemli bir araçtır.
+
+### Sevkiyat lojistiği sektörü
+
+- IoT destekli sensörler, kargonun konumunu ve taşıma üniteleri içindeki sıcaklığı tespit edip paylaşabilir.
+- Yükleme belgeleri ve gümrük formları gibi sevkiyat dokümanları elektronik olarak kolayca paylaşılabilir.
+
+
+"İyi ifade edilmiş bir sorunun yarısı çözülmüş sayılır."
+
+– Charles Kettering, 1920 - 1947 arasında General Motors'ta Araştırma lideri, mühendis ve mucit
+
+
+
+<img width="874" alt="Screenshot 2024-05-16 at 02 20 42" src="https://github.com/busecoban/IBM_CyberStart/assets/73944611/645dd275-5a43-4f8f-9c80-cbfa879476f7">
+
+"Karşılaştığımız zorlukların kusursuz çözümleri, kusursuz olmayan bir dünyada aranmamalıdır."
+
+– Sir Winston Churchill, 2. Dünya Savaşı yıllarında Birleşik Krallık Başbakanı
+
+
+
+
+
+
+
 
 ## Genel Kültür
 ![Akış Diyagramları](https://github.com/busecoban/IBM_CyberStart/assets/73944611/0091a130-5104-40a2-9c1e-5391820bfc6b)
@@ -403,6 +656,220 @@ Derin Öğrenme
 - Bu tür gelişmiş ancak kısıtlı yapay zeka, sürücüsüz araç kontrolü gibi karmaşık görevleri yerine getiremez, ancak satranç gibi belirli oyunlarda insan rakiplere karşı üstünlük sağlayabilir.
 - IBM Watson'un, Wikipedia ve diğer kaynaklardan elde edilen büyük veri setleriyle Jeopardy! şampiyonluğunu kazanmasının, doğal dil işleme konusundaki ilerlemelerde nasıl bir rol oynadığını gösteren bir örnek vardır.
 - Oyun sistemleri, yapay zeka teknolojisinin karmaşık ve hızlı zorluklar sunarak gelişmesine katkıda bulunur ve çözümleri yeni yapay zeka uygulamalarına öncülük eder.
+
+## Siber Güvenlik
+
+### Bilgisayar Korsanları ve Siber Saldırılar:
+
+[Crash Course Bilgisayar Bilimi No. 32](https://www.youtube.com/watch?v=9X2T7xwFNnA) videosunun özetini içerir.
+
+- **Sosyal Mühendislik:**
+  - Kullanıcıları kandırarak bilgisayar sistemlerine sızma.
+  - Kimlik avı dolandırıcılığı gibi yöntemlerle kullanıcıların gizli bilgilerini çalma.
+
+- **Sahte Senaryolar:**
+  - Kurbanı oldukları kişilere güvenli bir BT birimi çalışanı olduklarını iddia ederek sahte senaryolar uydurma.
+
+- **Kötü Amaçlı Yazılım:**
+  - E-postalar aracılığıyla yayılan kötü amaçlı yazılımlar.
+  - Veri çalma, dosyaları şifreleme ve fidye talep etme gibi zararlı faaliyetler.
+
+- **Arabellek Taşması (Buffer Overflow):**
+  - Program belleğine fazla veri göndererek sistemleri çökertme veya kontrolü ele geçirme yöntemi.
+
+- **Kod Enjeksiyonu (Code Injection):**
+  - Web sitelerine saldırmak için kullanılan bir yöntem.
+  - Veritabanı kullanan web sitelerinde yaygın olarak kullanılır.
+
+- **Sıfır Gün Güvenlik Açıkları (Zero-Day Exploits):**
+  - Henüz fark edilmemiş veya düzeltilmemiş güvenlik açıklarını hedef alma.
+  - Siyah Şapkalı Bilgisayar Korsanları, bu tür açıkları hızlıca keşfederek sistemlere sızma.
+
+- **Botnet ve DDoS Saldırıları:**
+  - Birçok bilgisayarı ele geçirerek botnet oluşturma.
+  - DDoS saldırıları ile hedef sistemlere büyük miktarda trafik gönderme.
+
+## Video Linki
+[![Bilgisayar Korsanları ve Siber Saldırılar](https://img.youtube.com/vi/9X2T7xwFNnA/0.jpg)](https://www.youtube.com/watch?v=9X2T7xwFNnA)
+
+# Şifreleme: Crash Course Bilgisayar Bilimi No. 33
+
+Bu README dosyası, Crash Course Bilgisayar Bilimi No. 33 "Şifreleme" videosunun özetini içerir.
+
+---
+
+Her bilgisayar sisteminin %100 güvenli olmadığını bilmek önemlidir. Bu nedenle, güvenlik uzmanları, derinlemesine savunma olarak adlandırılan bir strateji uygularlar. Şifreleme, bu stratejinin önemli bir parçasıdır.
+
+- **Şifreleme Nedir?**
+  - Bilgiyi gizlemek için bir algoritma kullanma.
+  - Düz metni şifreli metne dönüştürme ve şifrelenmiş metni orijinal haline döndürme işlemi.
+
+- **Tarihçe:**
+  - Jül Sezar'ın Sezar şifresi gibi eski şifreleme yöntemleri.
+  - İskoçya Kraliçesi Mary'nin yerine koyma şifresi ile yakalanması.
+
+### Simetrik Şifreleme
+
+- **Permütasyon Şifreleri:**
+  - Sütun yer değiştirme şifresi gibi bir örnek.
+  - Anahtarın sıralama yönü ve ızgara boyutunun önemi.
+
+- **Enigma Makinesi:**
+  - Almanya'nın II. Dünya Savaşı'nda kullandığı şifreleme makinesi.
+  - Çarklar, reflektör ve fiş panosu kullanımı.
+
+- **Data Encryption Standard (DES):**
+  - IBM ve NSA tarafından geliştirildi.
+  - 56 bit uzunluğunda anahtarlar kullanıyordu.
+
+- **Advanced Encryption Standard (AES):**
+  - DES'in yerini aldı.
+  - 128, 192 veya 256 bit uzunluğunda anahtarlar kullanır.
+
+### Asimetrik Şifreleme
+
+- **Diffie-Hellman Anahtar Değişimi:**
+  - Paylaşılan bir anahtar oluşturmak için modüler üs alma kullanır.
+  - Gizli anahtarların paylaşılmadan birbirine güvenli bir şekilde gönderilmesini sağlar.
+
+- **RSA (Rivest, Shamir, Adleman):**
+  - Asimetrik şifreleme yöntemlerinden biri.
+  - Bugünün en popüler şifreleme yöntemlerinden biri.
+
+### Sonuç
+
+- Şifreleme, iletişimi güvende ve gizli tutar.
+- Simetrik ve asimetrik şifreleme yöntemleri, bilgi güvenliğinde kritik bir rol oynar.
+
+---
+
+Video linki: [Şifreleme: Crash Course Bilgisayar Bilimi No. 33](https://www.youtube.com/watch?v=3QnD2c4Xovk)
+
+## ŞUNA GÖZ ATIN!
+
+https://bundles.yourlearning.ibm.com/skills/learn/assets/XVPQVZGJWWQV54A6/Blog_How%20to%20land%20a%20career%20in%20cybersecurity_tr-TR.pdf
+
+## Tony Stark'ın Jarvis'i var ve şimdi IBM'in de Havyn'i var :)
+
+https://www.wired.com/2017/02/ibm-havyn-cybersecurity/
+
+1. **Gelişmiş Sürekli Tehdit (APT):**
+   - Uzun süreli ve çok aşamalı bir ağ saldırısıdır.
+   - Yetkisiz kullanıcılar değerli kurumsal verilere erişir ve bunları toplar.
+
+2. **Kimlik Doğrulaması:**
+   - Bir bilgisayar sisteminin kullanıcısının gerçekten olduğunu iddia ettiği kişi olduğunun kanıtını sunan bir güvenlik hizmetidir.
+
+3. **Yedekleme:**
+   - Bir bilgisayarın ele geçirilmesi durumunda tüm önemli verilerin kaybolmasını önlemek için verilerin güvenli bir uzak konumda depolanmasını sağlar.
+
+4. **Botnet:**
+   - Bir kötü amaçlı yazılım parçasının bulaşmış olduğu bir grup bilgisayar sistemidir.
+   - Bir bilgisayar korsanı, bu ağ üzerindeki tüm botların tam kontrolünü elde eder ve kötü amaçlı görevleri yerine getirebilir.
+
+5. **İhlal:**
+   - Bir bilgisayar veya aygıttaki güvenlik açığını başarıyla istismar eden ve dosyaları ile ağına erişim elde eden yetkisiz bir kullanıcının veya erişen bir kişinin eylemidir.
+
+6. **Kaba Kuvvet Saldırısı:**
+   - Bir bilgisayar sistemine yetkisiz olarak erişmek için kullanılan bir yöntemdir.
+   - Örneğin, bir bilgisayar korsanı, parolayı "tahmin etmeye" çalışabilir.
+
+7. **Bulut:**
+   - Yüksek depolama kapasitesine sahip olan ve müşteri dosya taleplerine uzaktan hizmet sunan bir dizi bilgisayardır.
+   - Dosyalara İnternet üzerinden dünyanın herhangi bir yerinden erişilebilir.
+
+8. **Komuta ve Kontrol Merkezi:**
+   - Bir botnetin tüm botlarını kontrol eden bir uygulamadır.
+   - Bir bilgisayar korsanı, bir uygulama aracılığıyla bir komut gönderir ve bu uygulama daha sonra komutu ağdaki tüm ele geçirilmiş bilgisayarlara aktarır.
+
+9. **Siber Saldırı:**
+   - Siber yöntemler aracılığıyla bilgisayar sistemlerine, ağlara veya aygıtlara zarar verilmesine, bunlarda aksaklık oluşturulmasına veya bunlara yetkisiz erişim elde edilmesine yönelik kötü amaçlı girişimlerdir.
+
+10. **Siber Güvenlik:**
+    - Bilgilerin siber uzaydaki gizliliğinin, bütünlüğünün ve kullanılabilirliğinin korunmasıdır.
+
+11. **Dijital İmza:**
+    - Bir mesajın veya nesnenin orijinalliğini ve bütünlüğünü alıcıya garanti etmek için bir mesaja veya nesneye eklenmiş olan, bir özel anahtar ile şifrelenmiş bilgilerdir.
+
+12. **Şifreleme:**
+    - Bir dosyanın içeriğini, iletişim zincirinin dışındaki kişiler için okunamaz bir hale dönüştüren algoritmik bir yöntemdir.
+
+13. **İstismar:**
+    - Bir bilgisayarın güvenlik açığından yararlanmak amacıyla kullanılabilecek kötü amaçlı bir uygulama veya komut dosyasıdır.
+
+14. **Güvenlik Duvarı:**
+    - Yetkisiz erişimi engellemeye odaklanan donanım veya yazılım tabanlı bir savunma teknolojisidir.
+
+15. **Bal Çanağı (honeypot):**
+    - Savunma amaçlı bir siber güvenlik yöntemidir.
+    - Ağ üzerinde yasal ve yüksek değerli bir hedef gibi görünecek şekilde tasarlanmış bir bilgisayarın (sunucu) kullanılmasını kapsar.
+
+16. **İç Tehdit:**
+    - Bir kuruluşun karşı karşıya olduğu ve kuruluşun güvenlik uygulamalarına, verilerine ve bilgisayar sistemlerine ilişkin olarak "içeriden bilgi sahibi olan" mevcut ve eski çalışanları, yüklenicileri veya iş ortakları gibi kişilerden kaynaklanan kötü amaçlı bir tehdittir.
+
+17. **Jailbreak:**
+    - Bir aygıt üzerindeki yazılım kısıtlamalarını atlayarak bir kullanıcının bir işletim sistemine veya çekirdeğe kök erişimi elde etmesidir.
+    - Genellikle cep telefonu güvenliği bağlamında kullanılır.
+
+18. **Kötü Amaçlı Yazılım:**
+    - Bir bilgisayarda karmaşaya neden olmak amacıyla tasarlanmış her tür kötü amaçlı yazılımı ifade eden genel bir terimdir.
+    - Virüsler, Truva Atları, solucanlar ve fidye yazılımları gibi türler içerir.
+
+19. **Ortadaki Adam (MitM):**
+    - Bir saldırganın, işlemleri gözlemek ve kaydetmek amacıyla bir kullanıcı ile web sitesi arasındaki mesajları yakaladığı izinsiz giriş yöntemidir.
+
+20. **Tek Kullanımlık Parola:**
+    - Tek oturum açma işlemi için kullanılan bir paradır.
+    - Güvenli bir kanal aracılığıyla istemci ile sunucu arasında iletilir.
+
+21. **Açık Wi-Fi:**
+    - Bağlı olan kullanıcıların aygıtlarını ve etkinliklerini (trafik) ağdaki diğer tüm kullanıcılara açık hale getiren, kısıtlamaların az olduğu veya hiç bulunmadığı, halka açık bir ağdır.
+
+22. **Yama:**
+    - Yazılım hatasını düzeltmek için yayınlanan yeni bir yazılım parçasıdır.
+
+23. **Kimlik Avı Dolandırıcılığı (Saldırısı):**
+    - Bilgisayar korsanları tarafından hassas bilgilerin ele geçirilmesi için kullanılan bir yöntemdir.
+    - Kullanıcıya beklenmedik bir zamanda yasal bir kaynaktan gönderilmiş gibi görünen bir e-posta gönderilir.
+
+24. **Fidye Yazılımı:**
+    - Bir bilgisayardaki dosyalara erişimi kasıtlı olarak engelleyen bir tür kötü amaçlı yazılımdır.
+    - Dosyaları şifreler ve şifrelerinin çözülmesi için bir "fidye" ödenmesini talep eder.
+
+25. **Belirteç:**
+    - Bir ağ hizmetine erişim için yetki veren bir öğedir.
+    - Donanım güvenlik belirteci veya kimlik doğrulaması belirteci gibi küçük donanım aygıtlarını ifade eder.
+
+26. **Truva Atı:**
+    - Genellikle bir bilgisayar korsanının bir bilgisayara uzaktan erişim elde etmesine olanak sağlayan bir kötü amaçlı yazılım parçasıdır.
+
+27. **İki Faktörlü Kimlik Doğrulaması:**
+    - Bir kullanıcının iddia ettiği kimliğinin doğrulanması için iki farklı bileşenin kullanılmasıdır.
+
+28. **Virüs:**
+    - Kişisel bilgisayarlara yönelik bir tür kötü amaçlı yazılımdır.
+    - Bilgileri bozmak, silmek veya değiştirmek ve diğer bilgisayarlara yayılmak için tasarlanmıştır.
+
+29. **Sanal Özel Ağ (VPN):**
+    - Bir kullanıcının İnternet'i kullanırken anonim olarak kalmasına izin veren bir araçtır.
+    - Lokasyonu gizler ve kullanıcının bilgisayarı ile ziyaret ettiği web sitesi arasındaki trafiği şifreler.
+
+30. **Su Kaynağı (Saldırısı):**
+    - Belirli bir hedef kitlenin sıklıkla ziyaret ettiği bir web sitesine kötü amaçlı kod yerleştirerek belirli bir ilgi alanına sahip olan bir grubu hedefleyen bir saldırıdır.
+
+31. **Beyaz Şapkalı Bilgisayar Korsanı:**
+    - Bilgisayar korsanlığı yeteneklerini etik bir amaçla kullanan bir kişidir.
+    - İşletmeler genellikle siber güvenlik yeteneklerini test etmek için beyaz şapkalı bilgisayar korsanlarını işe alır.
+
+32. **Solucan:**
+    - Diğer bağlı bilgisayarlara bulaşmak için kendini çoğaltabilen bir kötü amaçlı yazılım parçasıdır.
+
+33. **Sıfır Gün (Saldırısı):**
+    - Belirli bir tür yazılım istismarıdır ve genellikle kötü amaçlıdır.
+    - Güvenlik açığı keşfedildiğinde, yazılım satıcı firmaları genellikle yeni yazılım parçaları yayınlarlar.
+
+
+
 
 
 ## Genel Kültür
