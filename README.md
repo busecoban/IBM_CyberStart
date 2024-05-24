@@ -168,6 +168,141 @@ Her iki programlama paradigması da kendi kullanım senaryolarına sahiptir. Fon
 
 # Hafta 4
 
+## 1. Veri Yapıları
+
+### Arrays (Diziler)
+- **Tanım**: Sabit boyutlu, homojen veri tipi elemanları içeren yapı.
+- **Özellikler**: Hızlı erişim, sabit boyut.
+- **Kullanım Alanları**: Sabit boyutlu veri saklama.
+- **Big O Notation**:
+  - Erişim: O(1)
+  - Arama: O(n)
+  - Ekleme: O(n)
+  - Silme: O(n)
+
+### Linked Lists (Bağlı Listeler)
+- **Tanım**: Dinamik boyutlu, düğümlerle bağlantılı elemanlar içeren yapı.
+- **Özellikler**: Kolay ekleme/çıkarma, ardışık erişim.
+- **Kullanım Alanları**: Değişken boyutlu veri saklama, öncelik kuyruğu.
+- **Big O Notation**:
+  - Erişim: O(n)
+  - Arama: O(n)
+  - Ekleme: O(1)
+  - Silme: O(1)
+
+### Stack (Yığın)
+- **Tanım**: LIFO (Last In First Out - Son Giren İlk Çıkar) prensibi ile çalışan veri yapısı.
+- **Özellikler**: Son giren ilk çıkar.
+- **Kullanım Alanları**: Fonksiyon çağrı yığınları, geri alma mekanizmaları.
+- **Big O Notation**:
+  - Erişim: O(n)
+  - Arama: O(n)
+  - Ekleme: O(1)
+  - Silme: O(1)
+
+### Queue (Kuyruk)
+- **Tanım**: FIFO (First In First Out - İlk Giren İlk Çıkar) prensibi ile çalışan veri yapısı.
+- **Özellikler**: İlk giren ilk çıkar.
+- **Kullanım Alanları**: İşletim sistemi iş kuyruğu, veri akışı.
+- **Big O Notation**:
+  - Erişim: O(n)
+  - Arama: O(n)
+  - Ekleme: O(1)
+  - Silme: O(1)
+
+### Trees (Ağaçlar)
+- **Tanım**: Hiyerarşik veri yapısı, düğümler ve kenarlar içerir.
+- **Özellikler**: Kök düğüm, alt ağaçlar.
+- **Kullanım Alanları**: Dosya sistemleri, XML verileri.
+- **Big O Notation**:
+  - Erişim: O(log n)
+  - Arama: O(log n)
+  - Ekleme: O(log n)
+  - Silme: O(log n)
+
+### Binary Search Tree (BST - İkili Arama Ağacı)
+- **Tanım**: Her düğümün en fazla iki alt düğümü olan ağaç yapısı.
+- **Özellikler**: Hızlı arama, ekleme, silme.
+- **Kullanım Alanları**: Veri tabanı indeksleri, dinamik sıralama.
+- **Big O Notation**:
+  - Erişim: O(log n)
+  - Arama: O(log n)
+  - Ekleme: O(log n)
+  - Silme: O(log n)
+
+### Hash Tables (Hash Tablolar)
+- **Tanım**: Anahtar-değer çiftleri saklayan veri yapısı.
+- **Özellikler**: Hızlı veri erişimi, eşsiz anahtarlar.
+- **Kullanım Alanları**: Veri tabanı indeksleri, önbellekleme.
+- **Big O Notation**:
+  - Erişim: O(1)
+  - Arama: O(1)
+  - Ekleme: O(1)
+  - Silme: O(1)
+
+### Graphs (Grafikler)
+- **Tanım**: Düğümler (vertex) ve kenarlardan (edge) oluşan yapı.
+- **Özellikler**: Yönlü/yönsüz, ağırlıklı/ağırlıksız.
+- **Kullanım Alanları**: Ağ analizi, yol bulma algoritmaları.
+- **Big O Notation**:
+  - Erişim: O(1)
+  - Arama: O(V+E)
+  - Ekleme: O(1)
+  - Silme: O(1)
+
+## 2. Algoritmalar
+
+### Sorting Algorithms (Sıralama Algoritmaları)
+- **Selection Sort (Seçmeli Sıralama)**: En küçük elemanı seçip başa alır.
+  - **Örnek**: [5, 3, 6, 2, 10] -> [2, 3, 6, 5, 10] -> [2, 3, 5, 6, 10]
+  - **Big O Notation**: O(n^2)
+- **Bubble Sort (Kabarcık Sıralama)**: Yan yana elemanları karşılaştırır ve sıralar.
+  - **Örnek**: [5, 3, 6, 2, 10] -> [3, 5, 2, 6, 10] -> [3, 2, 5, 6, 10] -> [2, 3, 5, 6, 10]
+  - **Big O Notation**: O(n^2)
+- **Quick Sort (Hızlı Sıralama)**: Pivot eleman seçer ve alt listelere böler.
+  - **Örnek**: [5, 3, 6, 2, 10] -> Pivot: 5 -> [3, 2] [5] [6, 10] -> [2, 3] [5] [6, 10]
+  - **Big O Notation**: O(n log n)
+- **Merge Sort (Birleştirme Sıralaması)**: Listeleri bölüp birleştirerek sıralar.
+  - **Örnek**: [5, 3, 6, 2, 10] -> [5, 3, 6] [2, 10] -> [5] [3, 6] [2] [10] -> [3, 5, 6] [2, 10] -> [2, 3, 5, 6, 10]
+  - **Big O Notation**: O(n log n)
+
+### Searching Algorithms (Arama Algoritmaları)
+- **Linear Search (Doğrusal Arama)**: Elemanları tek tek kontrol eder.
+  - **Örnek**: [5, 3, 6, 2, 10] -> 6 araması: 5, 3, 6 (bulundu)
+  - **Big O Notation**: O(n)
+- **Binary Search (İkili Arama)**: Sıralı listede ortadan başlayarak arama yapar.
+  - **Örnek**: [2, 3, 5, 6, 10] -> 6 araması: 5, 6 (bulundu)
+  - **Big O Notation**: O(log n)
+
+### Graph Algorithms (Graf Algoritmaları)
+- **Dijkstra's Algorithm (Dijkstra Algoritması)**: En kısa yolu bulur.
+  - **Örnek**: Başlangıç: A, Hedef: D -> Yol: A -> B -> D
+  - **Big O Notation**: O(V^2) veya O(E + V log V) (öncelik kuyruğu kullanarak)
+- **Kruskal's and Prim's Algorithms (Kruskal ve Prim Algoritmaları)**: Minimum Örtücü Ağaç (MST) oluşturur.
+  - **Örnek**: Graf: {A-B, B-C, A-C} -> MST: {A-B, B-C}
+  - **Big O Notation (Kruskal)**: O(E log V)
+  - **Big O Notation (Prim)**: O(V^2) veya O(E + V log V) (öncelik kuyruğu kullanarak)
+
+### Divide and Conquer (Böl ve Fethet)
+- **Özellikler**: Problemi küçük parçalara böler ve çözer.
+- **Kullanım Alanları**: Hızlı sıralama, birleştirme sıralaması.
+- **Örnek**: Merge Sort -> [5, 3, 6, 2, 10] -> [5, 3, 6] [2, 10] -> [5] [3, 6] [2] [10] -> [3, 5, 6] [2, 10] -> [2, 3, 5, 6, 10]
+- **Big O Notation**: O(n log n)
+
+### Dynamic Programming (Dinamik Programlama)
+- **Özellikler**: Alt problemlerin çözümlerini saklar, tekrar kullanır.
+- **Kullanım Alanları**: Fibonacci, en uzun ortak alt dizi.
+- **Örnek**: Fibonacci -> F(5) = F(4) + F(3) -> F(4) = F(3) + F(2) -> F(3) = F(2) + F(1)
+- **Big O Notation**: O(n)
+
+### Greedy Algorithms (Açgözlü Algoritmalar)
+- **Özellikler**: Her adımda en iyi görünen seçimi yapar.
+- **Kullanım Alanları**: Prim, Kruskal, aktivite seçimi.
+- **Örnek**: Aktivite Seçimi -> [1, 2], [3, 4], [0, 6], [5, 7] -> Seçim: [1, 2], [3, 4], [5, 7]
+- **Big O Notation**: O(n log n)
+
+
+
 ## Veri Bilimi
 
 **R:**
