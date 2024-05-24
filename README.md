@@ -108,6 +108,64 @@ Kapalı Yazılım, kaynak kodunun geliştirici veya şirket tarafından gizli tu
 
 # Hafta 5
 
+# Siber Saldırı Vaka Çalışmaları
+
+Her gün haberlerde gördüğümüz siber saldırılar, hem kamu hem de özel sektördeki kişileri ve kuruluşları etkiliyor. Bu belgede, neyin mümkün olduğunu ve dünyada nelerin yaşandığını anlamak için üç yüksek profilli siber saldırı vaka çalışmasını inceleyeceğiz. Her vaka çalışması, farklı bir tehdit aktörüne odaklanmakta ve uluslararası ortamda sürekli büyüyen güvenlik ihlali kataloğunun bir parçasıdır. Güvenlik toplumunun bir katılımcısı olarak, bu örneklerden ders çıkarmak gelecekteki kararlarınıza yön verecektir.
+
+## Stuxnet: Siber Silahların Tanıtımı
+
+**Stuxnet**, 2010 yılında tespit edildiğinde, güvenlik topluluğu tarafından gözlemlenen en gelişmiş ve hedefi belli kötü amaçlı yazılımlardan biriydi. Stuxnet, belirli bir sektör kontrol sistemini hedeflemek ve temel alanlarını değiştirmek üzere tasarlanmıştı. Genel kanı, bu kötü amaçlı yazılımın, nükleer bomba üretiminin öncüsü olan İran uranyum işleme sektöründe kullanılan santrifüjleri hedeflemek üzere tasarlandığı yönündedir.
+
+### Saldırının Öne Çıkan Özellikleri:
+- Stuxnet, daha önce tespit edilmemiş dört güvenlik açığını kullandı.
+- Kötü amaçlı yazılım, virüs bulaşmış USB sürücüleri yoluyla yayıldı.
+- Kötü amaçlı yazılımın yazarları ısrarcıydı ve sürekli güncellemelerle operasyonu aylarca sürdürdüler.
+
+Stuxnet, somut bir askeri ve siyasi hedefe ulaşmak için bir siber silahın devreye alınmasının çok net bir örneğidir ve gelecekteki siber silahlar için uluslararası beklentileri belirlemiştir.
+
+## Equifax: Önlenebilir Geniş Ölçekli Veri İhlali
+
+2017'de ABD kredi derecelendirme kurumu **Equifax**, bilgisayar korsanlarının saldırısına uğradı. Kuruluşun bir veritabanına güvenlik yaması uygulamaması sonucunda, bir grup bilgisayar korsanı Equifax'ın ağına erişim sağlamayı başardı. Ağda, şifreleme veya temel erişim kontrolleri olmadan depolanan bir dizi yönetici kimlik bilgisi bulunmaktaydı. Saldırganlar bu kimlik bilgilerini ele geçirerek sistemlerin çoğunu kontrol edebildiler ve bunu aylar boyunca fark edilmeden yaptılar.
+
+### İhlalin Boyutu:
+- 147 milyon adı ve doğum tarihi
+- 145,5 milyon Sosyal Güvenlik numarası
+- 209.000 ödeme kartı numarası ve son kullanma tarihi
+
+Bu vaka çalışması, veri ihlalinin hem etkisi hem de boyutu nedeniyle yankı uyandırdı ve veri ihlali fikrinin ABD'nin dikkatini çekmesini sağladı.
+
+## Ulusal Güvenlik Ajansı: Snowden Vakası
+
+2013 yılında Ulusal Güvenlik Ajansı'nın (NSA) alt yüklenicilerinden biri olan **Edward Snowden**, önemli miktarda gizli bilgiyi açığa çıkardı. İş rolü ve birkaç teknik araç sayesinde bu bilgilere erişebilmişti. Dosyalar kamuya açıklandığında, ABD ve uluslararası müttefikleri üzerindeki etkisi kayda değer seviyedeydi.
+
+### Sızdırılan Bilgiler:
+- Teknik kapasite incelemeleri
+- Operasyon kılavuzları
+- Oldukça hassas materyaller
+
+Bu, oldukça bilinen bir kötü niyetli köstebek örneğidir ve genel kanıya göre bu veri ihlali, ABD'nin yaşadığı en yüksek zararı veren veri sızdırma olaylarından biriydi.
+
+## SolarWinds: Büyük Ölçekli Tedarik Zincir Saldırısı
+
+**SolarWinds**, bilişim teknolojisi sistemlerini yönetmek için kullanılan Orion adında bir ürünü içermektedir. 2020'de SolarWinds'ın güvenliğinin ihlal edildiği ve kötü amaçlı yazılımın SolarWinds'ın binlerce müşterisine yayıldığı öğrenildi. Saldırganlar SolarWinds'ın güvenliğini tehlikeye attı ve bu nedenle müşteriler Orion'u güncelleştirdiklerinde kötü amaçlı yazılımı da cihazlarına yüklemiş oldular.
+
+### Saldırının Önemi:
+- Tedarik zincirlerindeki güvenilir ilişkilerin saldırganlar tarafından nasıl kullanılabileceğini gösteren bir örnektir.
+- SolarWinds, sonrasında büyük ölçekli tedarik zinciri saldırılarına nadiren maruz kaldı.
+
+Bu örneklerdeki gibi tedarikçi güvenlik açıklarına rağmen yama uygulaması, hâlâ rutin bir adım olarak önerilmektedir.
+
+---
+
+Aktivite
+
+https://medium.com/@buseccoban/log4shell-2022nin-en-kritik-g%C3%BCvenlik-a%C3%A7%C4%B1%C4%9F%C4%B1-ve-teknik-analizi-f07db755ce7b
+
+Aktivite
+
+Şifrelemeyi öğrenmenin en kolay yolu, onu denemektir! CyberChef adlı araç, Birleşik Krallık Devlet İletişim Merkezi (GCHQ) tarafından, şifreleme gibi veri işleme operasyonlarına yardımcı olmak üzere yazılmış web tabanlı bir araçtır. 
+
+
 ## Genel Kültür
 
 ### Kod Okunabilirliği İpuçları
